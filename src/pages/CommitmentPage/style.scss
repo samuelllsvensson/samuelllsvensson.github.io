@@ -1,0 +1,83 @@
+@import 'breakpoints';
+
+.commitment-page {
+  padding-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  
+  @include breakpoint-small-down {
+    padding-top: 3rem;
+  }
+
+  h1 {
+    padding: 1rem 0;
+    font-size: 3rem;
+    text-align:center;
+  }
+  a
+  {
+    text-decoration:none;
+  }
+  .content-grid {
+    flex: auto;
+  }
+
+  .commitment-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include breakpoint-small-down {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .modal-content 
+  {
+
+    color:colorAlternate;
+    a:link {
+      color: #e17421;
+    }     
+    a:visited {
+      color:  #e17421;
+    }
+    a:hover {
+      text-decoration:none;
+      color: #f9e4d5;
+    }
+    a:active {
+      color: #f9e4d5;
+    }
+
+    img
+    {
+      display: block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+  }
+
+  .btn-link
+  {
+      color: colorAlternate;
+      font-size: 0.875rem;
+      font-weight: 400;
+      text-decoration: none;
+  }
+  .modal-title
+  {
+      text-align: center;
+      margin-left: 3vw;
+  }
+  .modal-footer 
+  {
+      text-align: center;
+      margin-left: 3vw;
+
+  }
+}
