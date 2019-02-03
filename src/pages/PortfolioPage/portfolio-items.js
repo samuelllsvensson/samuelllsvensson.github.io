@@ -15,6 +15,7 @@ import image11 from './lego.png';
 
 
 
+
 export default [{
   name: 'bachelors',
   render: (

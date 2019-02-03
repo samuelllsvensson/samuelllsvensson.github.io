@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ScrollToNext from '@components/ScrollToNext';
 import signature from './signatur.png';
+
 import './style.scss';
 
 const AboutPage = (props, context) => {
