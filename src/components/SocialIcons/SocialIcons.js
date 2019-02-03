@@ -12,6 +12,7 @@ const SocialIcons = (props, context) => {
         <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/samuel.svensson1" style={ { color: colorPrimary } }><i className="fab fa-facebook"></i></a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/samuelllsvensson/" style={ { color: colorPrimary } }><i className="fab fa-instagram"></i></a>         
         <a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/user33091454" style={ { color: colorPrimary } }><i className="fab fa-vimeo"></i></a>     
+        <a target="_blank" rel="noopener noreferrer" href="mailto:samuel.svensson.95@gmail.com" style={ { color: colorPrimary } }><i className="fa fa-envelope"></i></a>     
         <a target="_blank" rel="noopener noreferrer" href={"files/cv.pdf"} type="application/pdf" style={ { color: colorPrimary } }><i className="fas fa-address-card"></i></a>         
       </div>
   );
