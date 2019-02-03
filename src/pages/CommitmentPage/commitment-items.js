@@ -82,6 +82,7 @@ export default [
                   We performed during the first few weeks while we lead the activities and performed at the pre-parties.</p>
                   <br/>
                   <img src={image2} height="100%" width="100%"/> 
+                  <br/>
                   <center>  Legionen 2017 gathered before the new students at an activity. </center>  
 
                   <br/><br/> 
@@ -131,9 +132,10 @@ export default [
                   The laborations were structured in a way for the students to get to know the basics of HTML5, CSS3, JS, PHP and finally MySQL. </p>
                   <br/>
                   <img src={image3} height="100%" width="100%"/> 
+                  <br/>
                   <center> A big part of being a lab assistant is to prepare acquaint yourself with the code of the laborations.</center>  
                   <br/>
-                  You can get more information about the laborations <a href="http://webstaff.itn.liu.se/~nikro27/tnmk30-2018/laborationer.php" target="_blank">here</a>.
+                  For further information about the laborations, click <a href="http://webstaff.itn.liu.se/~nikro27/tnmk30-2018/laborationer.php" target="_blank">here</a>.
                   <br/><br/> 
                   <center><p><strong>Developed skills in: </strong><i>Teaching, HTML5, CSS3, JS, PHP and MySQL.</i></p></center> 
                 </div>
@@ -186,7 +188,9 @@ export default [
                   Some weekends I travel either back home to visit family or to Stockholm where the majority of my closest friends live.  </p>
                   <br/>
                   <img src={image}/>
-
+                   <br/>
+                  <center> My plants. </center>  
+                  
                   <br/><br/> 
                   <center><p><strong>Developed skills in: </strong><i>Adobe Premiere Pro, Adobe After Effects, Cinema4D, Being alive, Planting plants and watering them. </i></p></center> 
 

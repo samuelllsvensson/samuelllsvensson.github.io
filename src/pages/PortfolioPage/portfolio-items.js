@@ -20,7 +20,7 @@ export default [{
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Coming up
+        Ongoing
       </div>
       <div className='portfolio-item__desc'>
       <h5> Jan 2019 - Jun 2019 </h5>
@@ -45,7 +45,8 @@ export default [{
                   <h4 className="modal-title">Multiplayer game using tablets </h4>
                 </div>
                 <div className="modal-body">
-                  <p>As a bachelor's project I am going to develop some sort of a tower defense-like game together with 5 other students. Right now it's in its earliest stages but the idea is that every player places his/hers tablet in one corner of a table.
+                  <p>As a bachelor's project I am going to develop some sort of a tower defense-like game together with 5 other students. 
+                  At the moment it's in its earliest stages but the idea is that every player places his/hers tablet in one corner of a table.
                   The devices calibrate themselves using the tablets accelerometers to determine the distances of the corners (we are still uncertain on how to solve this problem). 
                    The game design is obviously not yet finished since at the time of writing we've only had two weeks of planning. </p>
                    <br/>
@@ -68,7 +69,7 @@ export default [{
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Coming up
+        Ongoing
       </div>
       <div className='portfolio-item__desc'>
       <h5> Jan 2019 - Mar 2019 </h5>
@@ -91,8 +92,8 @@ export default [{
                   <h4 className="modal-title">Trebuchet simulation </h4>
                 </div>
                 <div className="modal-body">
-                  <p>For the course 'Modelling project - <a href="https://liu.se/studieinfo/kurs/tnm085/vt-2019/" target="_blank"> TNM085</a>' I am going to work in a group of four people to try and simulate and animate a working trebuchet projectile throw. 
-                  Firstly we will simulate the throw in MATLAB and later move on to a rendering software of our like. Right now we are looking at OpenGL or Three.js.
+                  <p>As course project in 'Modelling project - <a href="https://liu.se/studieinfo/kurs/tnm085/vt-2019/" target="_blank"> TNM085</a>' we are working in a group of four people to try and simulate and animate a working trebuchet projectile throw. 
+                  Firstly we will simulate the throw in MATLAB and later move on to a rendering software of our like. Both OpenGL and Three.js are probable methods.
                    <br/>
                   The main focus of the project is to model a system (using differential equations) and then render it however we'd like.   </p>
                   <br/>
@@ -150,8 +151,11 @@ export default [{
 
                   <p>I'm a big fan of responsive design so it's no surprise I enjoy using Flexbox to layout everything. It's just too good to skip out on, and almost all browsers support it. 
                   Sass is something I'm quite new to but I was able to find valuable resources on how to use breakpoint mixins and apply them to my site. </p> 
+                  <br/>
+                  <p>
+                  The CSS Parallax stars in the background (one of my favourite features) are from a CodePen I found <a href="https://codepen.io/anon/pen/NojZOV?editors=1100" target="_blank"> here</a>.
+                  </p> 
                   <br/><br/>
-
                   <center><p><strong>Developed skills in:</strong><i> React, Javascript, HTML5, CSS3, Sass and Flexbox. </i></p></center>
                 </div>
                 <div className="modal-footer">                  
@@ -203,7 +207,8 @@ export default [{
                   <p>Colliding with the bars meant game over and to be able to stay in the air (vacuum?) you need to collect the falling batteries that spawn in random intervals and positions. 
                   Asteroids were implemented to make the game more interesting. </p>
                   <br/>
-                  <img src={image3} height="100%" width="100%"/>              
+                  <img src={image3} height="100%" width="100%"/>  
+                  <br/>            
                   <center> Gameplay of SpaceGame. </center>
 
                   <br/><br/>
@@ -253,7 +258,8 @@ export default [{
                 <div className="modal-body">
                   <p>100 dagar (translated '100 days') was a project meant as a surprise for my girlfriend. 
                   In september 2018 she left to study abroad for a year at Stanford University in Palo Alto. 
-                  Being the hopeless romantic that I am, I thought it would be fun to have some sort of countdown app developed for us until we saw eachother again. 
+                  Since we were going to be separated for more than three months, I thought it would be fun to have some sort of countdown app developed for us until we saw eachother again. 
+                  I was a bit lucky with the dates. Apparently there's exactly 100 days between the 7th of sept and the 14th of dec, hence the name.
                   This was the first time I used Javascript for a serious project and I learned a lot during these weeks. </p>
                   <br/>
 
@@ -286,6 +292,7 @@ export default [{
                   <br/>
 
                   <img src={image7} height="50%" width="50%"/> 
+                  <br/>
                   <center>  Finished app the day before departure. </center>  
                   <br/>
                    
@@ -345,15 +352,17 @@ export default [{
                   Several puzzles were implemented into the game to add a layer of difficulty and lighting lowered to make it scary. </p>
                   <br/>
                   <img src={image8} height="100%" width="100%"/> 
+                  <br/>
                   <center>  Blueprints of torch implementation. </center>  
                   <br/>
-                  <a href="https://www.youtube.com/watch?v=c3KX1I5SiVI" target="_blank">Watch</a> a short promotional video.
+                  <a href="https://vimeo.com/272102306" target="_blank">Watch</a> a short promotional video.
                   <br/>     <br/>
 
                   <p>The player could play all by himself, or have a second person be their guide. 
                   This second player would have access to a map of the maze and also the solutions to its puzzles which would help the first player progress faster.</p>
 
                   <img src={image9} height="100%" width="100%"/> 
+                  <br/>
                   <center>  The map that the second player would have access to. </center>  
                   <br/><br/>
                   <center><p><strong>Developed skills in: </strong><i>Unreal Engine 4 and its 'Blueprints', C++17, 3DSMax, Computer graphics and Git. </i></p></center>
@@ -449,7 +458,7 @@ export default [{
                   <h4 className="modal-title">LEGO database  </h4>
                 </div>
                 <div className="modal-body">
-                  <p>In the 'Electronic Publishing - <a href="https://liu.se/studieinfo/kurs/tnm040/ht-2019/" target="_blank">TNMK30</a>' course me and my group created a website for the purpose of displaying LEGO parts. 
+                  <p>As course project in 'Electronic Publishing - <a href="https://liu.se/studieinfo/kurs/tnm040/ht-2019/" target="_blank">TNMK30</a>' my group and I created a website for the purpose of displaying LEGO parts. 
                   The project revolved mostly around the back-end part since we were supposed to be able to query MySQL tables and design a visually esthetic website.   </p>
                   <br/> 
 
@@ -460,6 +469,7 @@ export default [{
                   The parts are displayed in a grid like layout where you can browse back and forth several pages of results. </p>
                   <br/> 
                   <img src={image11} height="100%" width="100%"/> 
+                  <br/>
                   <center>The home page of the LEGO database</center>  
                   <br/><br/>
 

@@ -45,7 +45,7 @@ const AboutPage = (props, context) => {
             <p> During my three years so far at Linköpings University I’ve had the pleasure of getting to know several languages and frameworks. 
             Exactly what I learned is described more in-depth for the respective project in the ‘Portfolio’ page further down. Take a look!</p>
 
-            <p> Now I'm ready to work develop professionally and I'm currently looking for a summer job. If you are hiring or know someone that is, please let me know!</p>
+            <p> Now I'm ready to develop professionally and I'm currently looking for a summer job. If you are hiring or know someone that is, please let me know!</p>
             
            
             <p className="regards">
