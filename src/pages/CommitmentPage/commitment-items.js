@@ -81,7 +81,7 @@ export default [
                   Mostly to become a topic of conversation between the new students that are getting to know eachother.  
                   We performed during the first few weeks while we lead the activities and performed at the pre-parties.</p>
                   <br/>
-                  <img src={image2} height="100%" width="100%"/> 
+                  <img src={image2} height="100%" width="100%" alt="legionen"/> 
                   <br/>
                   <center>  Legionen 2017 gathered before the new students at an activity. </center>  
 
@@ -131,11 +131,11 @@ export default [
                   My role here was to guide younger year students through five laborations during the fall.
                   The laborations were structured in a way for the students to get to know the basics of HTML5, CSS3, JS, PHP and finally MySQL. </p>
                   <br/>
-                  <img src={image3} height="100%" width="100%"/> 
+                  <img src={image3} height="100%" width="100%" alt="labassistant"/> 
                   <br/>
                   <center> A big part of being a lab assistant is to prepare acquaint yourself with the code of the laborations.</center>  
                   <br/>
-                  For further information about the laborations, click <a href="http://webstaff.itn.liu.se/~nikro27/tnmk30-2018/laborationer.php" target="_blank">here</a>.
+                  For further information about the laborations, click <a href="http://webstaff.itn.liu.se/~nikro27/tnmk30-2018/laborationer.php" target="_blank" rel="noopener noreferrer">here</a>.
                   <br/><br/> 
                   <center><p><strong>Developed skills in: </strong><i>Teaching, HTML5, CSS3, JS, PHP and MySQL.</i></p></center> 
                 </div>
@@ -187,7 +187,7 @@ export default [
                   <p>I try to live a healthy lifestyle where I eat healthy and exercise as often as I am able to and it has become an interest in itself. 
                   Some weekends I travel either back home to visit family or to Stockholm where the majority of my closest friends live.  </p>
                   <br/>
-                  <img src={image}/>
+                  <img src={image} alt="plants" />
                    <br/>
                   <center> My plants. </center>  
                   

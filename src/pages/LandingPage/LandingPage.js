@@ -22,7 +22,7 @@ const LandingPage = (props, context) => {
             <h4><p>  Master of Science in Media Technology and Engineering </p> </h4>
           </div>
           <div className="image">
-            <img src={image} alt="Picture of me" />
+            <img src={image} alt="" />
           </div>
           <SocialIcons />
         </div>
