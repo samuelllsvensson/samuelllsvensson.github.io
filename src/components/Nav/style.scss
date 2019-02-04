@@ -11,6 +11,7 @@ nav {
 
   @include breakpoint-small-down {
     height: 4rem;
+    justify-content: center;
   }
 
   .magic-wand {
@@ -53,7 +54,10 @@ nav {
     display: flex;
     flex: 1;
     justify-content: flex-end;
-
+    @include breakpoint-small-down {
+    
+    justify-content: center;
+    }
     &__item {
       padding: 0.25rem 0;
       margin: 0 1rem;

@@ -17,6 +17,7 @@
 
     @include breakpoint-small-down {
       padding: 4.25rem 1.5rem 1rem;
+      
     }
 
     .intro-wrapper {
@@ -60,6 +61,21 @@
       {
         border-radius: 50px 0px 50px 0px ;
       }
+      @include breakpoint-small-down {
+      > .image {
+       
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+      }
+      img
+      {
+        width: 80%;
+        border-radius: 50px 0px 50px 0px ;
+      }
+        }
+     
     }
 
     .browser-notes {
