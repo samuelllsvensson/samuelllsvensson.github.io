@@ -216,7 +216,7 @@ export default [{
                   <center><p><strong>Developed skills in: </strong><i>Unity, C#, sound Physics, sound analysis and digitizing audio. </i></p></center>
                 </div>
                 <div className="modal-footer">
-                  <a href="files/datorgrafikrapport.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report</a><br/><br/>
+                  <a href="files/Ljudfysikrapport.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report</a><br/><br/>
                   <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
               </div>  
