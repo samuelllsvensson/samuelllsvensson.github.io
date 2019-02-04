@@ -447,7 +447,7 @@ export default [{
         <i className="fab fa-css3"></i>    
       </div>
       <div className='portfolio-item__links'>
-        
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/samuelllsvensson/LEGO-database"><i className="fab fa-github fa-lg"></i> </a>
         <a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal7">More</a>
       </div>
 
@@ -477,7 +477,7 @@ export default [{
                   <center><p><strong>Developed skills in: </strong><i> MySQL, PHP, HTML5 and CSS3. </i></p></center>
                 </div>
                 <div className="modal-footer">
-                  <a href="http://www.student.itn.liu.se/~samsv787/LEGOny/" target="_blank" rel="noopener noreferrer">Website</a><br/><br/>
+                  <a href="http://www.student.itn.liu.se/~ebbni997/legobas/" target="_blank" rel="noopener noreferrer">Website</a><br/><br/>
                   <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
               </div>  
