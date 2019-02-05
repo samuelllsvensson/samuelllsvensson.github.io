@@ -62,19 +62,33 @@
         border-radius: 50px 0px 50px 0px ;
       }
       @include breakpoint-small-down {
-      > .image {
-       
-        width: 100%;
-        height: auto;
-        margin: auto;
-        
-      }
-      img
-      {
-        width: 80%;
-        border-radius: 50px 0px 50px 0px ;
-      }
+        > .image {
+         
+          width: 100%;
+          height: auto;
+          margin: auto;
+          
         }
+        img
+        {
+          width: 80%;
+          border-radius: 50px 0px 50px 0px ;
+        }
+      }
+      @include breakpoint-xlarge-down {
+        > .image {
+         
+          width: 100%;
+          height: auto;
+          margin: auto;
+          
+        }
+        img
+        {
+          width: 70%;
+          border-radius: 50px 0px 50px 0px ;
+        }
+      }
      
     }
 
