@@ -12,9 +12,14 @@ import image8 from './torch.png';
 import image9 from './map.png';
 import image10 from './sql.png';
 import image11 from './lego.png';
-
-
-
+import image12 from './cinema4dlogo.png';
+import image13 from './cinema.png';
+import image14 from './zoom.jpg';
+import image15 from './aftereffects.jpg';
+import image16 from './threejs.png';
+import image17 from './matlab.png';
+import image18 from './ae.png';
+import image19 from './premiere.png';
 
 export default [{
   name: 'bachelors',
@@ -24,7 +29,7 @@ export default [{
         Ongoing
       </div>
       <div className='portfolio-item__desc'>
-      <h5> Jan 2019 - Jun 2019 </h5>
+      <h5> Jan 2019 - June 2019 </h5>
         Multiplayer game using tablets to play
       </div>
       <div className='portfolio-item__icon'>
@@ -77,8 +82,9 @@ export default [{
         Trebuchet simulation
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fas fa-code"></i>
-        
+        <i className="fab fa-js"></i>  
+        <img src={image16} height="70" width="70" alt="three.js logo"/>
+        <img src={image17} height="80" width="80" alt="MATLAB logo"/>
       </div>
       <div className='portfolio-item__links'>
       
@@ -382,6 +388,86 @@ export default [{
   )
 }, 
 {
+  name: 'amaze',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        World Zoom 
+      </div>
+      <div className='portfolio-item__desc'>
+      <h5> Oct 2017 </h5>
+        Getting to know Cinema4D 
+      </div>
+      <div className='portfolio-item__icon'>
+        <img src={image12} height="60" width="60" alt="Cinema4D"/>   
+        <img src={image18} height="40" width="40" alt="After Effects"/>     
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/316264518"><i className="fab fa-vimeo fa-lg"></i> </a>
+        <a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal23">More</a>
+      </div>
+
+      <div className="container">    
+          <div className="modal fade" id="myModal23" role="dialog">
+            <div className="modal-dialog">                     
+              <div className="modal-content">
+                <div className="modal-header">                
+                  <h4 className="modal-title">World zoom</h4>
+                </div>
+                <div className="modal-body">
+                  <p>I did this project in my free time, unrelated to any courses nor my education. 
+                  The inspiration for this project was the renowned 'Earthrise' picture taken by the Apollo 8 mission in 1968. 
+                  I wanted to simulate the feeling of flying around the moon, travelling back to earth (fast) and then finally the camera crashing into my hands. 
+                  I had heard that Maxon's Cinema4D was easy to work with but the most important was its close integration with Adobe After effects. 
+                  Being able to port my work easily and then immediately start the compositing process was great. </p>
+                  <br/>
+                  <p> One of my personal criterias for this project was to make it as photo-realistic as possible since I was going to use footage from my own camera as well. 
+                  I found high resolution texture maps of the Moon and Earth on NASA's website and started working. 
+                  To simulate the atmosphere of the Earth I used several spherical objects layered on top of the globe with their alpha channel modified and a blueish tint.
+                  There is also a cloud layer with a bump map to add further realism. 
+                  Using another texture map which shows the surface of the Earth at night I blended the two maps together using a multiply shader. 
+                  Because of this, I was able to simulate the day/night cycle depending on where my light (the Sun) was positioned. 
+                  The camera travels along a spline path with varying speeds and the entire project is about 400 frames. I rendered all of them into .EXR files which I then exported to After Effects.</p>
+                  <br/>
+                  <img src={image13} height="100%" width="100%" alt="Cinema4dworkspace"/> 
+                  <br/>
+                  <center>  Cinema4D workspace. </center>  
+                  <br/>
+                  <p> In after Effects I could start compositing all of my footage, like the ISS floating by in low earth orbit. The final rendered frames from Cinema4D were close-ups of Earth and I wanted to continue the motion in After Effects to simulate it going into the atmosphere very fast. 
+                  I solved this by extracting screenshots from Google maps by centering on my apartment, zooming out and then taking a screenshot from a distance. 
+                  I continued this until I was almost at ground level where I created a transition to my camera footage of my grabbing the camera. Using some special effects like blurs and adding more clouds I was able to create a very nice zooming effect. </p>
+                  <br/>
+                  <img src={image14} height="100%" width="100%" alt="Zoom"/> 
+                  <br/>
+                  <center> Putting all screenshots together into a sequence created a powerful and believable crashing effect.   </center>  
+                  <br/>
+                  <p>Finally I added some sound effects, color-corrected, an effect of smudges on the lens and scaled the video to upload on my personal <a href="https://www.instagram.com/p/Bay3GLFFpMX/" target="_blank" rel="noopener noreferrer">Instagram</a>.  </p>
+                 
+                  <br/>
+                  <img src={image15} height="100%" width="100%" alt="AfterEffects"/> 
+                  <br/>
+                  <center> Compositing in After Effects.  </center> 
+                  <br/>
+
+                  You can also see the final result on <a href="https://vimeo.com/316264518" target="_blank" rel="noopener noreferrer">Vimeo</a>.
+
+                  <br/><br/>
+                  <center><p><strong>Developed skills in: </strong><i>Cinema4D, Adobe After Effects, 3D-rendering, 3D-texturing, Compositing and Computer Graphics.  </i></p></center>
+                </div>
+                <div className="modal-footer">
+                  
+                  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>  
+            </div>
+          </div>        
+        </div>
+
+
+    </div>
+  )
+}, 
+{
   name: 'pandorasapp',
   render: (
     <div className='portfolio-item'>
@@ -502,7 +588,9 @@ export default [{
         Post-apocalyptic zombie-film at campus
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fas fa-video"></i>       
+        <i className="fas fa-video"></i>    
+        <img src={image18} height="40" width="40" alt="After Effects"/>     
+        <img src={image19} height="40" width="40" alt="Premiere Pro"/>     
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/194536185"><i className="fab fa-vimeo fa-lg"></i> </a>

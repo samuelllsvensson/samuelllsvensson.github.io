@@ -109,7 +109,7 @@ export default [
        Lab assistant
       </div>
       <div className='portfolio-item__desc'>
-      <h5> Oct 2017-Jan 2018 </h5>
+      <h5> Oct 2017 - Jan 2018 </h5>
      'Electronic publishing' course
       </div>
       <div className='portfolio-item__icon'>
@@ -160,7 +160,7 @@ export default [
         Leisure time interests
       </div>
       <div className='portfolio-item__desc'>
-      <h5> Birth - Now </h5>
+      <h5> July 1995 - Now </h5>
         Film editing, plants, working out
       </div>
       <div className='portfolio-item__icon'>
