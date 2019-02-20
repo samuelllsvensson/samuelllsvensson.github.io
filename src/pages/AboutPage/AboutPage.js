@@ -33,7 +33,7 @@ const AboutPage = (props, context) => {
             <p>
               I’m currently working towards my <a href="https://liu.se/utbildning/program/6cmen" target="_blank" rel="noopener noreferrer">Master of Science (M.Sc.) degree from Linköpings University in Media Technology</a> at campus Norrköping. 
               It’s focused on computer graphics, AI, UX, AR/VR and visualizations in addition to the standard engineering courses.
-              I’m currently in my third year and this spring I’m doing a project as part of my bachelor’s degree. You can read more about this in my 'Portfolio' page below. 
+              I’m currently in my third year and this spring I’m doing a project as part of my bachelor’s degree. Right now my greatest interests are in 3D-computer graphics, image processing and front-end development.
             </p>
             <p>
               I’ve always had an interest in technology in general since I was very young. 

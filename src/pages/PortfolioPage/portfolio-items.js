@@ -1,25 +1,25 @@
 import React from 'react';
 import './style.scss';
-import image from './unity.png';
-import image1 from './unreal.png';
-import image2 from './cordova.png';
-import image3 from './Gameplay.png';
-import image4 from './firebase.png';
-import image5 from './database.png';
-import image6 from './time.png';
-import image7 from './hundred.jpg';
-import image8 from './torch.png';
-import image9 from './map.png';
-import image10 from './sql.png';
-import image11 from './lego.png';
-import image12 from './cinema4dlogo.png';
-import image13 from './cinema.png';
-import image14 from './zoom.jpg';
-import image15 from './aftereffects.jpg';
-import image16 from './threejs.png';
-import image17 from './matlab.png';
-import image18 from './ae.png';
-import image19 from './premiere.png';
+import image from './images/unity.png';
+import image1 from './images/unreal.png';
+import image2 from './images/cordova.png';
+import image3 from './images/Gameplay.png';
+import image4 from './images/firebase.png';
+import image5 from './images/database.png';
+import image6 from './images/time.png';
+import image7 from './images/hundred.jpg';
+import image8 from './images/torch.png';
+import image9 from './images/map.png';
+import image10 from './images/sql.png';
+import image11 from './images/lego.png';
+import image12 from './images/cinema4dlogo.png';
+import image13 from './images/cinema.png';
+import image14 from './images/zoom.jpg';
+import image15 from './images/aftereffects.jpg';
+import image16 from './images/threejs.png';
+import image17 from './images/matlab.png';
+import image18 from './images/ae.png';
+import image19 from './images/premiere.png';
 
 export default [{
   name: 'bachelors',
@@ -308,7 +308,7 @@ export default [{
                   <a href="https://www.youtube.com/watch?v=c3KX1I5SiVI" target="_blank" rel="noopener noreferrer">Here</a> is a short walkthrough of how the app works (translated to english and with example text/images for privacy purposes).</p>
                   <br/><br/>
 
-                  <center><p><strong>Developed skills in: </strong><i> Google Firebase, Javascript (and Memento.js), Apache Cordova, Adobe Phonegap, HTML5, and CSS3.</i></p></center>
+                  <center><p><strong>Developed skills in: </strong><i> Google Firebase, Javascript (and Memento.js), jQuery, Apache Cordova, Adobe Phonegap, HTML5, and CSS3.</i></p></center>
                 </div>
                 <div className="modal-footer">
                   <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
@@ -367,7 +367,7 @@ export default [{
 
                   <p>The player could play all by himself, or have a second person be their guide. 
                   This second player would have access to a map of the maze and also the solutions to its puzzles which would help the first player progress faster.</p>
-
+                  <br/>
                   <img src={image9} height="100%" width="100%" alt="mazemap"/> 
                   <br/>
                   <center>  The map that the second player would have access to. </center>  
