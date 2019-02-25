@@ -40,8 +40,8 @@ const AboutPage = (props, context) => {
               During my early teens I was keeping up to date on the newest computer hardware and was constantly upgrading my PC to be able play the latest games. 
               As you can imagine, gaming was and is still a big part of my life. 
               There’s something valuable in being creative enough to be able to create something that intrigues people. I think that applies to all software and not just games. 
-              That's probably where my fascination with programming came from. Since high school I've developed a variety of small projects, sometimes in groups, sometimes alone. 
-              I've been learning fast and sometimes failing completely is what I believe is a part of the journey. </p>
+              That's probably where my fascination with programming came from. Since starting university I've developed a variety of small projects, sometimes in groups, sometimes alone. 
+              I've been learning fast but occasionally failing is what I believe is part of the journey. </p>
 
             <p> During my three years so far at Linköpings University I’ve had the pleasure of getting to know several languages and frameworks. 
             Exactly what I learned is described more in-depth for the respective project in the ‘Portfolio’ page further down. Take a look!</p>
