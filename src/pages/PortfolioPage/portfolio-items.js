@@ -48,16 +48,21 @@ export default [{
             <div className="modal-dialog">                     
               <div className="modal-content">
                 <div className="modal-header">                
-                  <h4 className="modal-title">Multiplayer game using tablets </h4>
+                  <h4 className="modal-title">Multiplayer AR-game using tablets </h4>
                 </div>
                 <div className="modal-body">
                   <p>As a bachelor's project I am going to develop some sort of a tower defense-like game together with 5 other students. 
-                  At the moment it's in its earliest stages but the idea is that every player places his/hers tablet in one corner of a table.
-                  The devices calibrate themselves using the tablets accelerometers to determine the distances of the corners (we are still uncertain on how to solve this problem). 
-                   The game design is obviously not yet finished since at the time of writing we've only had two weeks of planning. </p>
+                  The game is going to be played using the camera of a tablet (or smartphone) to see a limited field of view over the map. Players create even teams from 2-8 players where each team has a base to defend. 
+                  Between the bases are a number of paths where the players will be able to spawn ants through a UI on their device using ingame resources. The ants will run towards the enemy base which will lose hitpoints if they reach it. 
+                  The enemy players will be able to squash ants and also use traps to defend themselves. 
+                  The map is a 3D-modelled map with interactive elements and is fixed on f.e a table using markers generated using the AR-library ArUco. Using ArUco we will be able to calibrate each camera to receive perfect tracking abilities. 
+                  ArUco is built in C++ and OpenCV. It is a very efficient library for detection of planar markers and camera pose estimation. and the gamelogic is going to be implemented using Unity (C#). 
+                  Unity has their own networking service called UNet which will be utilized to create a client/server architecture to handle connections. The map together with all necessary models are going to be created using Blender. 
+                  As of writing we have just finished writing the project plan and are soon going to start our first sprint.
+                   </p>
                    <br/>
 
-                   <center><p><strong>Developing skills in: </strong><i>Organising, planning, management, decision-making, problem-solving, individual responsibilities, Javascript (?), Git, Scrum, Software and Agile development.</i></p></center>
+                   <center><p><strong>Developing skills in: </strong><i>Organising, planning, management, decision-making, problem-solving, individual responsibilities, C++, C#, OpenCV, 3D-modelling, Git, Scrum, Software and Agile development.</i></p></center>
                 </div>
                 <div className="modal-footer">
                   <a href="https://liu.se/studieinfo/en/kurs/tnm094/vt-2019" target="_blank" rel="noopener noreferrer" >Course site</a><br/><br/>
@@ -99,12 +104,15 @@ export default [{
                   <h4 className="modal-title">Trebuchet simulation </h4>
                 </div>
                 <div className="modal-body">
-                  <p>As course project in 'Modelling project - <a href="https://liu.se/studieinfo/kurs/tnm085/vt-2019/" target="_blank" rel="noopener noreferrer"> TNM085</a>' we are working in a group of four people to try and simulate and animate a working trebuchet projectile throw. 
-                  Firstly we will simulate the throw in MATLAB and later move on to a rendering software of our like. Both OpenGL and Three.js are probable methods.
+                  <p>As course project in 'Modelling project - <a href="https://liu.se/studieinfo/kurs/tnm085/vt-2019/" target="_blank" rel="noopener noreferrer"> TNM085</a>' 
+                  we are working in a group of four people to simulate and animate a working trebuchet projectile throw. 
+                  The main focus of the project is to model the system (using differential equations) and then render it using an appropriate software.  
+                  As of writing we have succeeded in simulating the throw in MATLAB and are now implementing a graphical version using Three.Js. 
+                  The final version will have parameters to change projectile and counter-weight mass, arm length and air resistance etc.   </p>
                    <br/>
-                  The main focus of the project is to model a system (using differential equations) and then render it however we'd like.   </p>
+
                   <br/>
-                  <center><p><strong>Developing skills in: </strong><i>Organising, planning, decision-making, problem-solving, Javascript (?), OpenGL(?) and Git.</i></p></center>
+                  <center><p><strong>Developing skills in: </strong><i>Organising, planning, decision-making, problem-solving, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
                 </div>
                 <div className="modal-footer">
                   <a href="https://liu.se/studieinfo/en/kurs/tnm085/vt-2019" target="_blank" rel="noopener noreferrer" >Course site</a><br/><br/>
