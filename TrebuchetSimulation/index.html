@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trebuchet Physics Simulation</title>
+		<style>
+			body { margin: 0; }
+			canvas { display:block; width: 100vw; height: 100vw;}
+			#stats { position: absolute; top:0; left: 0 } 
+			#gui{position: absolute; top: 0; right: 0; height: 420px; animation: fadein 3s; }
+			@keyframes fadein {
+				from {
+					opacity:0;
+				}
+				to {
+					opacity:1;
+				}
+			}
+		</style>
+	</head>
+	<body>
+
+		<!-- External libraries -->
+		<script src="https://threejs.org/build/three.min.js"></script>
+		<script src="lib/OrbitControls.js"></script>
+		<script src="lib/dat.gui.min.js"></script>
+		<script src="lib/stats.min.js"></script>
+		<script src ="lib/GLTFLoader.js"></script>
+
+		<!-- Internal js files -->		
+		<script src ="loadModels.js"></script>
+		<script src ="initLights.js"></script>
+		<script src ="RenderFunctions.js"></script>
+		<script src ="Main.js"></script>
+
+	</body>
+</html>
