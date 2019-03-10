@@ -92,7 +92,7 @@ export default [{
 		<img src={image17} height="80" width="80" alt="MATLAB logo"/>
 	  </div>
 	  <div className='portfolio-item__links'>
-		<a target="_blank" rel="noopener noreferrer" href="https://samuelllsvensson.github.io/TrebuchetSimulation/index.html" >Live website</a>
+		<a target="_blank" rel="noopener noreferrer" href="https://samuelllsvensson.github.io/trebuchet-simulation/index.html" >Live website</a>
 		<a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal1">More</a>
 	  </div>
 
@@ -115,7 +115,7 @@ export default [{
 				  <center><p><strong>Developing skills in: </strong><i>Organising, planning, decision-making, problem-solving, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
 				</div>
 				<div className="modal-footer">
-				  <a target="_blank" rel="noopener noreferrer" href='https://samuelllsvensson.github.io/TrebuchetSimulation/index.html'>Live website</a>
+				  <a target="_blank" rel="noopener noreferrer" href='https://samuelllsvensson.github.io/trebuchet-simulation/index.html'>Live website</a>
 				  <a href="https://liu.se/studieinfo/en/kurs/tnm085/vt-2019" target="_blank" rel="noopener noreferrer" >Course site</a><br/><br/>
 				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
