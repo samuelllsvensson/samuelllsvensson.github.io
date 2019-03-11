@@ -119,6 +119,7 @@ export default [{
 				</div>
 				<div className="modal-footer">
 				  <a target="_blank" rel="noopener noreferrer" href='/trebuchet-simulation/'>Live website</a>
+				  <br/><br/>
 				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			  </div>  
