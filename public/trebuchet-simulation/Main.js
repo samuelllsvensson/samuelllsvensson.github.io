@@ -71,8 +71,6 @@ controls.minDistance = 10;
 
 // Textures --------------------------------------------------------------------------------------------
 var trebuchetTexture = new THREE.TextureLoader().load('textures/Trebuchet_D.png');
-var canyon = new THREE.TextureLoader().load('textures/canyon.jpg');
-var sand = new THREE.TextureLoader().load('textures/desert.png');
 var stone = new THREE.TextureLoader().load('textures/stone.jpg');
 trebuchetTexture.flipY=false
 canyon.flipY=false

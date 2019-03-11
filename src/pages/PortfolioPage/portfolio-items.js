@@ -92,7 +92,7 @@ export default [{
 		<img src={image17} height="80" width="80" alt="MATLAB logo"/>
 	  </div>
 	  <div className='portfolio-item__links'>
-		<a target="_blank" rel="noopener noreferrer" href="/trebuchet-simulation/" >Live website</a>
+		<a target="_blank" rel="noopener noreferrer" href="https://github.com/samuelllsvensson/Trebuchet-simulation"><i className="fab fa-github fa-lg"></i> </a>
 		<a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal1">More</a>
 	  </div>
 
@@ -105,11 +105,14 @@ export default [{
 				</div>
 				<div className="modal-body">
 				  <p>As course project in 'Modelling project - <a href="https://liu.se/studieinfo/kurs/tnm085/vt-2019/" target="_blank" rel="noopener noreferrer"> TNM085</a>' 
-				  we are working in a group of four people to simulate and animate a working trebuchet projectile throw. 
+				  I simulated and animated a trebuchet projectile throw. 
 				  The main focus of the project is to model the system (using differential equations) and then render it using an appropriate software.  
-				  As of writing we have succeeded in simulating the throw in MATLAB and are now implementing a graphical version using Three.Js. 
-				  The final version will have parameters to change projectile and counter-weight mass, arm length and air resistance etc.   </p>
-				   <br/>
+				  Using MATLAB for simulation, the physical system was divided into two subsystems, rotation and translation. Using Eulers step method we were able to determine the projectiles angular, but also translational acceleration, velocity and position during the simulation.
+				  The WebGL application was built using Three.js to render a 3D-scene together with a GUI to change several parameters of the trebuchet. 
+				  Using a <a href="https://www.khronos.org/gltf/" target="_blank" rel="noopener noreferrer" >glTF</a>-loader with .glb files I was able to create an effective transmission and loading of the 3D-scene. 
+				  All objects were modeled in Blender 2.8 which supported glTF exporting. 
+				  </p>
+
 
 				  <br/>
 				  <center><p><strong>Developing skills in: </strong><i>Organising, planning, decision-making, problem-solving, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
