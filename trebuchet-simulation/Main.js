@@ -73,7 +73,6 @@ controls.minDistance = 10;
 var trebuchetTexture = new THREE.TextureLoader().load('textures/Trebuchet_D.png');
 var stone = new THREE.TextureLoader().load('textures/stone.jpg');
 trebuchetTexture.flipY=false
-canyon.flipY=false
 
 // Sounds --------------------------------------------------------------------------------------------
 
