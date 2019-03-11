@@ -119,7 +119,6 @@ export default [{
 				</div>
 				<div className="modal-footer">
 				  <a target="_blank" rel="noopener noreferrer" href='/trebuchet-simulation/'>Live website</a>
-				  <a href="https://liu.se/studieinfo/en/kurs/tnm085/vt-2019" target="_blank" rel="noopener noreferrer" >Course site</a><br/><br/>
 				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			  </div>  
@@ -575,7 +574,7 @@ export default [{
 				  <center><p><strong>Developed skills in: </strong><i> MySQL, PHP, HTML5 and CSS3. </i></p></center>
 				</div>
 				<div className="modal-footer">
-				  <a href="http://www.student.itn.liu.se/~ebbni997/legobas/" target="_blank" rel="noopener noreferrer">Website</a><br/><br/>
+				  <a href="http://www.student.itn.liu.se/~ebbni997/legobas/" target="_blank" rel="noopener noreferrer">Live website</a><br/><br/>
 				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			  </div>  
