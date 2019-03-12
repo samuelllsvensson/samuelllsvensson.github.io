@@ -20,6 +20,8 @@ import image16 from './images/threejs.png';
 import image17 from './images/matlab.png';
 import image18 from './images/ae.png';
 import image19 from './images/premiere.png';
+import image20 from './images/trebuchet.png';
+
 
 export default [{
   name: 'bachelors',
@@ -112,10 +114,13 @@ export default [{
 				  Using a <a href="https://www.khronos.org/gltf/" target="_blank" rel="noopener noreferrer" >glTF</a>-loader with .glb files I was able to create an effective transmission and loading of the 3D-scene. 
 				  All objects were modeled in Blender 2.8 which supported glTF exporting. 
 				  </p>
-
+				  <br/>
+				  <img src={image20} height="100%" width="100%" alt ="gameplay" />  
+				  <br/>            
+				  <center> Complete 3D rendered simulation scene with adjustable parameters in the GUI.  </center>
 
 				  <br/>
-				  <center><p><strong>Developing skills in: </strong><i>Organising, planning, decision-making, problem-solving, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
+				  <center><p><strong>Developing skills in: </strong><i>Organising, planning, decision-making, problem-solving, Modelling, Simulation, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
 				</div>
 				<div className="modal-footer">
 				  <a target="_blank" rel="noopener noreferrer" href='/trebuchet-simulation/'>Live website</a>
