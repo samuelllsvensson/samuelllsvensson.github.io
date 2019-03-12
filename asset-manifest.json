@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.b49a08f8.css",
-  "main.css.map": "static/css/main.b49a08f8.css.map",
-  "main.js": "static/js/main.f9d9538b.js",
-  "main.js.map": "static/js/main.f9d9538b.js.map",
+  "main.css": "static/css/main.8c30a24b.css",
+  "main.css.map": "static/css/main.8c30a24b.css.map",
+  "main.js": "static/js/main.da04b21b.js",
+  "main.js.map": "static/js/main.da04b21b.js.map",
   "static\\media\\Gameplay.png": "static/media/Gameplay.16227f63.png",
   "static\\media\\ae.png": "static/media/ae.b434068a.png",
   "static\\media\\aftereffects.jpg": "static/media/aftereffects.c7436c44.jpg",
@@ -31,6 +31,7 @@
   "static\\media\\threejs.png": "static/media/threejs.08227caa.png",
   "static\\media\\time.png": "static/media/time.819ed3c5.png",
   "static\\media\\torch.png": "static/media/torch.bedf6bbe.png",
+  "static\\media\\trebuchet.png": "static/media/trebuchet.00b54673.png",
   "static\\media\\unity.png": "static/media/unity.117e1739.png",
   "static\\media\\unreal.png": "static/media/unreal.b0b6fa08.png",
   "static\\media\\zoom.jpg": "static/media/zoom.92078e5d.jpg"
