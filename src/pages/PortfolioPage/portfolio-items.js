@@ -39,7 +39,7 @@ export default [{
 	  </div>
 	  <div className='portfolio-item__links'>
 		
-		
+		<a target="_blank" rel="noopener noreferrer" href='/treasure-hunt/'>Live website</a>
 		<a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal">More</a>
 		
 
@@ -82,11 +82,11 @@ export default [{
   render: (
 	<div className='portfolio-item'>
 	  <div className='portfolio-item__title'>
-		Ongoing
+		Trebuchet simulation
 	  </div>
 	  <div className='portfolio-item__desc'>
 	  <h5> Jan 2019 - Mar 2019 </h5>
-		Trebuchet simulation
+		Simulated and modeled the physical system of a launching trebuchet
 	  </div>
 	  <div className='portfolio-item__icon'>
 		<i className="fab fa-js"></i>  
