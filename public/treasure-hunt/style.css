@@ -104,7 +104,6 @@ h5
 }
 p
 {
-  font-size:0.4em;
    margin-left:auto;
   margin-right:auto;
 }
@@ -174,16 +173,16 @@ a {
   text-align: center;
 }
 #dearSara{
-  font-size: 2vw;
+  font-size: 4vw;
   text-align:left;
-    font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
 }
 #welcome{
-  font-size: 1vw;
+  font-size: 2vw;
 }
 ul
 {
-    font-size: 1vw;
+    font-size: 2vw;
 }
 
 
