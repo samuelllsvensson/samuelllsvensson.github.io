@@ -1,0 +1,210 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#desktop_error {
+  width: 100%;
+  padding-top: 10vw;
+  min-height: 700vh;
+  position: absolute;
+  font-size: 3vw;
+  color: white;
+  background-color: #c60000;
+  text-align: center;
+  display: none;
+}
+
+#wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: gray;
+  background-image: url("images/background.jpg");
+  background-size: contain;
+
+}
+.block {
+  padding: 2vw;
+  margin-bottom: 3vw;
+  width: 96vw;
+  min-height: 16vw;
+  background-color: white;
+  box-shadow: 0vw 1vw 2vw #303030;  /* h-offset, v-offset, blur, color */
+}
+
+.icon {
+  height: 12vw;
+  margin-top: 2vw;
+  margin-left: 1vw;
+  float: left;
+}
+
+#header {
+  width: 80%;
+  margin-left: 9vw;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+#timer {
+  transition-duration: 1s;
+}
+#countdown {
+  margin-left: 14vw;  /* ful-centrering */
+  margin-top: 2vw;
+  float: left;
+  font-size: 10vw;
+  height: 10vw; /* behövs för att inte knuffa undan keys */
+}
+
+#warning {
+  display: none;
+}
+#warning_text {
+  font-size: 4vw;
+  margin-left: 15vw;
+}
+
+#keys {
+  transition-duration: 1s;
+}
+#key_bar {
+  padding: 2vw;
+  background-color: #e8e8e8;
+  margin: 2vw;
+  height: 8vw;
+  width: 57vw;
+  font-size: 5vw;
+  font-family: 'Libre Baskerville', Serif;
+
+  transition-duration: 0.5s;
+}
+#key_button {
+  height: 12.3vw;  /* De här höjderna beter sig fett mysko */
+  width: 12.3vw;
+  margin-top: 2vw;
+  float: right;
+  margin-right: 2vw;
+  background-image: url("images/key.png");
+  background-size: contain;
+}
+
+#clue_list {
+  width: 82%;
+  margin-left: 18%;
+  font-size: 6vw;
+}
+h5
+{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+p
+{
+  font-size:0.4em;
+   margin-left:auto;
+  margin-right:auto;
+}
+.jacka
+{
+  width: 80%;
+  height: auto;
+}
+#done_list {
+  width: 82%;
+  margin-left: 18%;
+  font-size: 5vw;
+}
+#done_list > p {
+  font-size: 5vw;
+  background-color: #87dd77;
+  display: inline-block;
+  border-radius: 1vw;
+  margin: 1vw;
+  padding: 1vw;
+}
+
+#copy_button {
+  position: absolute;
+  left: 3vw;
+  bottom: 3vw;
+  height: 20vw;
+  width: 20vw;
+  background-color: red;
+}
+#copy_text {
+  margin-left: 17vw;
+  font-size: 2.2vw;
+}
+#copy_code {
+  font-size: 5.5vw;
+  margin: -0.5vw 0vw 0vw 17vw;
+}
+
+@media screen and (min-width: 1200px) and (min-width: 800px) {
+    #desktop_error {
+      display: inline;
+    }
+}
+
+
+#text-wrapper {
+  width: 80%;
+  min-height: 100vh;
+  color:white;
+  font-size: 5vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color:white;
+}
+#clueHeader
+{
+  text-align: center;
+}
+#dearSara{
+  font-size: 2vw;
+  text-align:left;
+    font-family: 'Lora', serif;
+}
+#welcome{
+  font-size: 1vw;
+}
+ul
+{
+    font-size: 1vw;
+}
+
+
+$fuschia: #ff0081;
+$button-bg: $fuschia;
+
+body{
+}
+.bubbly-button{
+    font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-size: 10vw;
+  padding: 1vw;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  line-height: 1;
+  letter-spacing: 1px;
+  border: 5px solid $fuschia;
+  background: #7b0305;
+  color: #8C82FC;
+  border-radius: 40px;
+  transition: all .35s;
+}
