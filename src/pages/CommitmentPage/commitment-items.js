@@ -2,6 +2,7 @@ import React from 'react';
 import image from './plants.jpg';
 import image2 from './legionen.jpeg';
 import image3 from './labass.jpg';
+import image4 from './cygnipåsk.jpg';
 export default [
 {
   name: 'cygni',
@@ -34,7 +35,10 @@ export default [
                   <br/> 
                   My duties are to represent the company while on campus and on different fairs like LINK (Arbetsmarknadsdagarna inom data och IT på LiU) and MTD (Medieteknikdagarna). 
                   I help plan stand-alone events hosted by the company and in return I get to travel to Stockholm couple of times every semester to attend consultant meetings, activities and conferences.  </p>
-                  
+                  <br/>
+                  <img src={image4} height="100%" width="100%" alt="cygniMTD"/> 
+                  <br/>
+                  <center> Representing Cygni at the annual media technology fair days '<a target="_blank" rel="noopener noreferrer" href="http://www.medieteknikdagarna.se/"> MTD </a>'. </center>  
                   <br/><br/> 
                   <center><p><strong>Developed skills in: </strong><i> Planning, Networking and Coordinating. </i></p></center>           
                 </div>
@@ -45,8 +49,6 @@ export default [
             </div>
           </div>        
         </div>
-
-
     </div>
   )
 }, 
@@ -161,7 +163,7 @@ export default [
       </div>
       <div className='portfolio-item__desc'>
       <h5> July 1995 - Now </h5>
-        Film editing, plants, working out
+        Film editing, plants, being out in nature
       </div>
       <div className='portfolio-item__icon'>
       </div>

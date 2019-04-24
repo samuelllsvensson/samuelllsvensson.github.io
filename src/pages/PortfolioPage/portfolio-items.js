@@ -32,14 +32,13 @@ export default [{
 	  </div>
 	  <div className='portfolio-item__desc'>
 	  <h5> Jan 2019 - June 2019 </h5>
-		Multiplayer game using tablets to play
+		ANT WARS, an AR multiplayer game using mobile devices and tablets to play
 	  </div>
 	  <div className='portfolio-item__icon'>
 		<i className="fas fa-code"></i>
 	  </div>
 	  <div className='portfolio-item__links'>
-		
-		<a target="_blank" rel="noopener noreferrer" href='/treasure-hunt/'>Live website</a>
+		<a target="_blank" rel="noopener noreferrer" href="https://github.com/aneromz/TNM094-ANT-WARS"><i className="fab fa-github fa-lg"></i> </a>
 		<a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal">More</a>
 		
 
@@ -50,21 +49,20 @@ export default [{
 			<div className="modal-dialog">                     
 			  <div className="modal-content">
 				<div className="modal-header">                
-				  <h4 className="modal-title">Multiplayer AR-game using tablets </h4>
+				  <h4 className="modal-title">ANT WARS, a multiplayer AR-game using mobile devices and tablets </h4>
 				</div>
 				<div className="modal-body">
 				  <p>As a bachelor's project I am going to develop some sort of a tower defense-like game together with 5 other students. 
 				  The game is going to be played using the camera of a tablet (or smartphone) to see a limited field of view over the map. Players create even teams from 2-8 players where each team has a base to defend. 
 				  Between the bases are a number of paths where the players will be able to spawn ants through a UI on their device using ingame resources. The ants will run towards the enemy base which will lose hitpoints if they reach it. 
 				  The enemy players will be able to squash ants and also use traps to defend themselves. 
-				  The map is a 3D-modelled map with interactive elements and is fixed on f.e a table using markers generated using the AR-library ArUco. Using ArUco we will be able to calibrate each camera to receive perfect tracking abilities. 
-				  ArUco is built in C++ and OpenCV. It is a very efficient library for detection of planar markers and camera pose estimation. and the gamelogic is going to be implemented using Unity (C#). 
+				  The map is a 3D-modelled map with interactive elements and is fixed on f.e a table using in-built markers from Vuforia. It is a very efficient library for detection of planar markers and camera pose estimation. and the gamelogic is going to be implemented using Unity (C#). 
 				  Unity has their own networking service called UNet which will be utilized to create a client/server architecture to handle connections. The map together with all necessary models are going to be created using Blender. 
-				  As of writing we have just finished writing the project plan and are soon going to start our first sprint.
+				  As of writing we have just finished a prototype where the player are able to choose teams, spawn and interact with enemy ants and the AR tracking is fully implemented. 
 				   </p>
 				   <br/>
 
-				   <center><p><strong>Developing skills in: </strong><i>Organising, planning, management, decision-making, problem-solving, individual responsibilities, C++, C#, OpenCV, 3D-modelling, Git, Scrum, Software and Agile development.</i></p></center>
+				   <center><p><strong>Developing skills in: </strong><i>Organising, planning, management, decision-making, problem-solving, individual responsibilities, C#, 3D-modelling, AR,  Git, Scrum, Software and Agile development.</i></p></center>
 				</div>
 				<div className="modal-footer">
 				  <a href="https://liu.se/studieinfo/en/kurs/tnm094/vt-2019" target="_blank" rel="noopener noreferrer" >Course site</a><br/><br/>
@@ -131,7 +129,6 @@ export default [{
 			</div>
 		  </div>        
 		</div>
-
 
 	</div>
   )

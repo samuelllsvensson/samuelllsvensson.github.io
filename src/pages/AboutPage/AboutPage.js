@@ -27,7 +27,7 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I’m a 23 year old student with an interest in web development and learning new things. I’m currently searching for a development internship/job for the summer 2019. 
+              I’m a 23 year old student with an interest in web development and learning new things. This website was made to highlight both personal and academical projects, please take a look!
 
             </p>
             <p>
@@ -41,12 +41,12 @@ const AboutPage = (props, context) => {
               As you can imagine, gaming was and is still a big part of my life. 
               There’s something valuable in being creative enough to be able to create something that intrigues people. I think that applies to all software and not just games. 
               That's probably where my fascination with programming came from. Since starting university I've developed a variety of small projects, sometimes in groups, sometimes alone. 
-              I've been learning fast but occasionally failing is what I believe is part of the journey. </p>
+              I've been learning fast but occasionally failing is what I believe is part of the journey. This fall I'm taking machine learning and image processing (global illumination/raytracing) courses which I'm very much looking forward to.  </p>
 
             <p> During my three years so far at Linköpings University I’ve had the pleasure of getting to know several languages and frameworks. 
             Exactly what I learned is described more in-depth for the respective project in the ‘Portfolio’ page further down. Take a look!</p>
 
-            <p> Now I'm ready to develop professionally and I'm currently looking for a summer job. If you are hiring or know someone that is, please let me know!</p>
+            <p> This summer I'm getting ready to develop professionally as an intern at Agricam AB whos software helps farmers detect mastitis in cattle using IR cameras and image processing together with machine learning.  </p>
             
            
             <p className="regards">

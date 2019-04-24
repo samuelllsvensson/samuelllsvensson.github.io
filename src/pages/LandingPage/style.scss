@@ -32,10 +32,14 @@
         font-size: 4rem;
         font-weight: bold;
         line-height: 4rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0.1rem;
 
         @include breakpoint-small-down {
           font-size: 3rem;
+          line-height: 3.5rem;
+        }
+        @include breakpoint-xlarge-down {
+          font-size: 2rem;
           line-height: 3.5rem;
         }
       }
@@ -46,6 +50,9 @@
         font-weight: 300;
 
         @include breakpoint-small-down {
+          font-size: 1.25rem;
+        }
+        @include breakpoint-xlarge-down {
           font-size: 1.25rem;
         }
       }
@@ -72,6 +79,20 @@
         img
         {
           width: 80%;
+          border-radius: 50px 0px 50px 0px ;
+        }
+      }
+      @include breakpoint-large-down {
+        > .image {
+         
+          width: 100%;
+          height: auto;
+          margin: auto;
+          
+        }
+        img
+        {
+          width: 50%;
           border-radius: 50px 0px 50px 0px ;
         }
       }
