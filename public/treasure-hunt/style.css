@@ -22,7 +22,7 @@ html, body {
   min-height: 100%;
   background-color: gray;
   background-image: url("images/background1.jpg");
-  background-size: cover;
+  background-size: contain;
 
 }
 .block {
@@ -197,8 +197,8 @@ body{
 .bubbly-button{
     font-family: 'Montserrat', sans-serif;
   display: inline-block;
-  font-size: 10vw;
-  padding: 1vw;
+  font-size: 7vw;
+  padding: 0.7vw;
   width:100%;
   margin-left:auto;
   margin-right:auto;
