@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  height:  100%;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -18,10 +19,10 @@ html, body {
 
 #wrapper {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: gray;
   background-image: url("images/background.jpg");
-  background-size: contain;
+  background-size: cover;
 
 }
 .block {
