@@ -93,6 +93,7 @@ html, body {
 #clue_list {
   width: 82%;
   margin-left: 18%;
+
   font-size: 6vw;
 }
 h5
@@ -104,8 +105,8 @@ h5
 }
 p
 {
-   margin-left:auto;
-  margin-right:auto;
+   	margin-left:auto;
+  	margin-right:5%;
 }
 .jacka
 {
@@ -178,11 +179,11 @@ a {
   font-family: 'Lora', serif;
 }
 #welcome{
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 ul
 {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 
