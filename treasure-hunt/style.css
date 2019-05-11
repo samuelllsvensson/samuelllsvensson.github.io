@@ -157,7 +157,7 @@ p
   width: 85%;
   min-height: 100vh;
   color:white;
-  font-size: 2vw;
+  font-size: 1vw;
   margin-left:auto;
   margin-right:auto;
 }
@@ -176,17 +176,17 @@ a {
   text-align: center;
 }
 #dearSara{
-  font-size: 4vw;
+  font-size: 3vw;
   text-align:left;
   font-family: 'Lora', serif;
 
 }
 #welcome{
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 ul
 {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 
