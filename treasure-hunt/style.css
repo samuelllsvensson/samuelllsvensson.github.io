@@ -157,7 +157,7 @@ p
   width: 80%;
   min-height: 100vh;
   color:white;
-  font-size: 4vw;
+  font-size: 2vw;
   margin-left:auto;
   margin-right:auto;
 }
@@ -179,6 +179,7 @@ a {
   font-size: 4vw;
   text-align:left;
   font-family: 'Lora', serif;
+
 }
 #welcome{
   font-size: 1.5vw;
@@ -202,6 +203,7 @@ body{
   width:100%;
   margin-left:auto;
   margin-right:auto;
+  margin-bottom:3vw;
   line-height: 1;
   letter-spacing: 1px;
   border: 5px solid $fuschia;
