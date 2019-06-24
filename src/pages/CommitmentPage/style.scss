@@ -72,12 +72,21 @@
   .modal-title
   {
       text-align: center;
-      margin-left: 3vw;
+      font-size: 1.5rem;
+      
+  }
+
+  .modal-body
+  {
+      padding-left:2em;
+      padding-right:2em;
+      font-size: 0.75rem;
+      
   }
   .modal-footer 
   {
       text-align: center;
-      margin-left: 3vw;
+      
 
   }
 }

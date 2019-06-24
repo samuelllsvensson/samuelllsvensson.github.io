@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.scss';
+import Iframe from 'react-iframe'
+
 import image from './images/unity.png';
 import image1 from './images/unreal.png';
 import image2 from './images/cordova.png';
@@ -21,27 +23,27 @@ import image17 from './images/matlab.png';
 import image18 from './images/ae.png';
 import image19 from './images/premiere.png';
 import image20 from './images/trebuchet.png';
-
+import image21 from './images/csharp.png';
+import image22 from './images/trebuchet2.png';
 
 export default [{
   name: 'bachelors',
   render: (
 	<div className='portfolio-item'>
 	  <div className='portfolio-item__title'>
-		Ongoing
+		AR multiplayer mobile game 
 	  </div>
 	  <div className='portfolio-item__desc'>
 	  <h5> Jan 2019 - June 2019 </h5>
 		ANT WARS, an AR multiplayer game using mobile devices and tablets to play
 	  </div>
 	  <div className='portfolio-item__icon'>
-		<i className="fas fa-code"></i>
+		<img src={image21} height="50" width="50" alt="csharp logo"/>
+		<img src={image} height="100" width="100" alt="unity logo"/>
 	  </div>
 	  <div className='portfolio-item__links'>
 		<a target="_blank" rel="noopener noreferrer" href="https://github.com/aneromz/TNM094-ANT-WARS"><i className="fab fa-github fa-lg"></i> </a>
 		<a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal">More</a>
-		
-
 	  </div>
 
 	  <div className="container">    
@@ -52,20 +54,20 @@ export default [{
 				  <h4 className="modal-title">ANT WARS, a multiplayer AR-game using mobile devices and tablets </h4>
 				</div>
 				<div className="modal-body">
-				  <p>As a bachelor's project I am going to develop some sort of a tower defense-like game together with 5 other students. 
-				  The game is going to be played using the camera of a tablet (or smartphone) to see a limited field of view over the map. Players create even teams from 2-8 players where each team has a base to defend. 
-				  Between the bases are a number of paths where the players will be able to spawn ants through a UI on their device using ingame resources. The ants will run towards the enemy base which will lose hitpoints if they reach it. 
-				  The enemy players will be able to squash ants and also use traps to defend themselves. 
-				  The map is a 3D-modelled map with interactive elements and is fixed on f.e a table using in-built markers from Vuforia. It is a very efficient library for detection of planar markers and camera pose estimation. and the gamelogic is going to be implemented using Unity (C#). 
-				  Unity has their own networking service called UNet which will be utilized to create a client/server architecture to handle connections. The map together with all necessary models are going to be created using Blender. 
-				  As of writing we have just finished a prototype where the player are able to choose teams, spawn and interact with enemy ants and the AR tracking is fully implemented. 
+				  <p>As a bachelor's project I developed an AR multiplayer game together with 5 other students. 
+				  Players create even teams from 2-8 players where each team has a base to defend. Using only the camera of a mobile device, the player has a limited field of view over the map and has to move around to see better. 
+				  Between the bases are a number of paths where the players are able to spawn ants using ingame resources. The ants run towards the enemy base and damage it if they reach it. 
+				  Meanwhile the enemy players are able to squash enemy ants to defend themselves. Random pop-ups giving more resources also add a game element. 
+				  The map is a 3D-modelled map (made in Blender) with interactive elements and is fixed on f.e a table using in-built markers from Vuforia. Vuforia is a very efficient library for detection of planar markers and camera pose estimation.
+				  The gamelogic is implemented using the popular game engine Unity (written in C#). 
+				  Unity also has their own networking service called UNet which has been utilized to create a client/server architecture to handle connections. 
 				   </p>
 				   <br/>
 
 				   <center><p><strong>Developing skills in: </strong><i>Organising, planning, management, decision-making, problem-solving, individual responsibilities, C#, 3D-modelling, AR,  Git, Scrum, Software and Agile development.</i></p></center>
 				</div>
 				<div className="modal-footer">
-				  <a href="https://liu.se/studieinfo/en/kurs/tnm094/vt-2019" target="_blank" rel="noopener noreferrer" >Course site</a><br/><br/>
+				  <a href="files/kandidatrapport.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report (Swedish)</a><br/><br/>
 				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			  </div>  
@@ -116,7 +118,10 @@ export default [{
 				  <img src={image20} height="100%" width="100%" alt ="gameplay" />  
 				  <br/>            
 				  <center> Complete 3D rendered simulation scene with adjustable parameters in the GUI.  </center>
-
+				  <br/>
+				  <img src={image22} height="100%" width="100%" alt ="gameplay2" />  
+				  <br/>            
+				  <center> Another angle.  </center>
 				  <br/>
 				  <center><p><strong>Developing skills in: </strong><i>Organising, planning, decision-making, problem-solving, Modelling, Simulation, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
 				</div>
@@ -202,8 +207,8 @@ export default [{
 		A sound-based game
 	  </div>
 	  <div className='portfolio-item__icon'>
+	  	<img src={image21} height="50" width="50" alt="csharp logo"/>
 		<img src={image} height="100" width="100" alt="unity logo"/>
-	 
 	  </div>
 	  <div className='portfolio-item__links'>
 		<a target="_blank" rel="noopener noreferrer" href="https://github.com/samuelllsvensson/SpaceGame"><i className="fab fa-github fa-lg"></i> </a>
@@ -236,7 +241,7 @@ export default [{
 				  <center><p><strong>Developed skills in: </strong><i>Unity, C#, sound Physics, sound analysis and digitizing audio. </i></p></center>
 				</div>
 				<div className="modal-footer">
-				  <a href="files/Ljudfysikrapport.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report</a><br/><br/>
+				  <a href="files/Ljudfysikrapport.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report (Swedish)</a><br/><br/>
 				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			  </div>  
@@ -318,10 +323,20 @@ export default [{
 				  <br/>
 				   
 				  <p>This project was a great learning opportunity and it was extremely satisfying to solve some of the problems I faced, like querying the database in the correct way. 
-				  
-				  <a href="https://www.youtube.com/watch?v=c3KX1I5SiVI" target="_blank" rel="noopener noreferrer">Here</a> is a short walkthrough of how the app works (translated to english and with example text/images for privacy purposes).</p>
+				  <br/> <br/>
+				  Here is a short walkthrough of how the app works (translated to english and with example text/images for privacy purposes).
+				  <br/> <br/>
+				  <Iframe url="https://www.youtube.com/embed/c3KX1I5SiVI"
+				        width="560px"
+				        height="315px"
+				        id="myId"
+				        className="myClassname"
+				        display="initial"
+				        position="relative"
+				        allowFullScreen
+				  />
+				  </p>
 				  <br/><br/>
-
 				  <center><p><strong>Developed skills in: </strong><i> Google Firebase, Javascript (and Memento.js), jQuery, Apache Cordova, Adobe Phonegap, HTML5, and CSS3.</i></p></center>
 				</div>
 				<div className="modal-footer">
@@ -389,7 +404,7 @@ export default [{
 				  <center><p><strong>Developed skills in: </strong><i>Unreal Engine 4 and its 'Blueprints', C++17, 3DSMax, Computer graphics and Git. </i></p></center>
 				</div>
 				<div className="modal-footer">
-				  <a href="files/datorgrafikrapport.pdf" type="application/pdf"  target="_blank" rel="noopener noreferrer">Project report</a><br/><br/>
+				  <a href="files/datorgrafikrapport.pdf" type="application/pdf"  target="_blank" rel="noopener noreferrer">Project report (Swedish)</a><br/><br/>
 				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			  </div>  
@@ -462,9 +477,17 @@ export default [{
 				  <br/>
 				  <center> Compositing in After Effects.  </center> 
 				  <br/>
-
-				  You can also see the final result on <a href="https://vimeo.com/316264518" target="_blank" rel="noopener noreferrer">Vimeo</a>.
-
+				  You can see the final result below. 
+				  <br/> <br/>	    
+				  <Iframe url="https://player.vimeo.com/video/316264518"
+				        width="520px"
+				        height="650px"
+				        id="myId"
+				        className="myClassname"
+				        display="initial"
+				        position="relative"
+				        allowFullScreen
+				  />
 				  <br/><br/>
 				  <center><p><strong>Developed skills in: </strong><i>Cinema4D, Adobe After Effects, 3D-rendering, 3D-texturing, Compositing and Computer Graphics.  </i></p></center>
 				</div>
@@ -626,9 +649,17 @@ export default [{
 				  <p>The film focuses on small details around on set and also ambient sound effects to make it seem more dramatic. A man wakes up bloody in a room and seems confused of his whereabouts. 
 				  He tries to get out of the room and search his surroundings for clues. He suffers intense flashbacks during this and he realizes what has happened to campus. Zombies chase him and he finally escapes... or does he? </p>
 				  <br/>
-
-				  <a href="https://vimeo.com/194536185" target="_blank" rel="noopener noreferrer">Watch</a> the short film here.
-				  
+				  Watch the short film below.
+				  <br/> <br/>	    
+				  <Iframe url="https://player.vimeo.com/video/194536185"
+				        width="520px"
+				        height="300px"
+				        id="myId"
+				        className="myClassname"
+				        display="initial"
+				        position="relative"
+				        allowFullScreen
+				  />
 				  <br/><br/>
 				  <center><p><strong>Developed skills in: </strong>  <i>Adobe Premiere Pro, Adobe After Effects, Film compositions and Script writing. </i></p> </center>
 				</div>
