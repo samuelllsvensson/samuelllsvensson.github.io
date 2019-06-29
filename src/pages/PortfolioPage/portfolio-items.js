@@ -61,9 +61,20 @@ export default [{
 				  The map is a 3D-modelled map (made in Blender) with interactive elements and is fixed on f.e a table using in-built markers from Vuforia. Vuforia is a very efficient library for detection of planar markers and camera pose estimation.
 				  The gamelogic is implemented using the popular game engine Unity (written in C#). 
 				  Unity also has their own networking service called UNet which has been utilized to create a client/server architecture to handle connections. 
+				  <br/> <br/>
+				  See the final results below. 
 				   </p>
-				   <br/>
-
+				   <br/> 
+				   <Iframe url="https://player.vimeo.com/video/345218845"
+				        width="520px"
+				        height="300px"
+				        id="myId"
+				        className="myClassname"
+				        display="initial"
+				        position="relative"
+				        allowFullScreen
+				  />
+				  <br/><br/>
 				   <center><p><strong>Developing skills in: </strong><i>Organising, planning, management, decision-making, problem-solving, individual responsibilities, C#, 3D-modelling, AR,  Git, Scrum, Software and Agile development.</i></p></center>
 				</div>
 				<div className="modal-footer">
