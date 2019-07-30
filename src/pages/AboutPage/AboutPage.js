@@ -27,11 +27,7 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-<<<<<<< HEAD
               I’m a 24 year old student with an interest in web development and learning new things. This website was made to highlight both personal and academical projects, please take a look!
-=======
-              I’m a 23 year old student with an interest in web development and learning new things. This website was made to highlight both personal and academical projects, please take a look!
->>>>>>> dad1b4992eae68f9574be283b50be56e64e6d508
 
             </p>
             <p>

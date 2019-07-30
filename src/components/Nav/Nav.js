@@ -40,12 +40,8 @@ class Nav extends Component {
 
   render() {
     const {
-<<<<<<< HEAD
       theme: { colorPrimary, bgPrimary, navAlpha },
       switchTheme
-=======
-      theme: { colorPrimary, bgPrimary, navAlpha }
->>>>>>> dad1b4992eae68f9574be283b50be56e64e6d508
     } = this.context;
 
     const stickyClass = this.state.isSticky ? 'sticky' : '';
@@ -60,14 +56,10 @@ class Nav extends Component {
         }}
         style={stickyStyles}
       >
-<<<<<<< HEAD
         <div className="magic-wand bounce-xy" onClick={(e) => switchTheme()}>
           <button className="fas fa-magic fa-lg" href="#" />
           <div className="magic-text">Color Me</div>
         </div>
-=======
-        
->>>>>>> dad1b4992eae68f9574be283b50be56e64e6d508
         <style jsx="true">
           {`
             .menu__item:hover {
@@ -88,15 +80,6 @@ class Nav extends Component {
           >
             Portfolio
           </div>
-<<<<<<< HEAD
-=======
-          <div
-            className="menu__item"
-            onClick={(e) => this.scrollToPage('.commitment-page')}
-          >
-            Commitments
-          </div>
->>>>>>> dad1b4992eae68f9574be283b50be56e64e6d508
         </div>
       </nav>
     );

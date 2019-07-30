@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-<<<<<<< HEAD
 
-=======
->>>>>>> dad1b4992eae68f9574be283b50be56e64e6d508
 import './style.scss';
 
 const SocialIcons = (props, context) => {

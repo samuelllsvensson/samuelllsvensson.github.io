@@ -12,7 +12,6 @@ const PortfolioItem = (props, context) => {
         className="portfolio-item"
         style={{ backgroundColor: colorPrimary, color: textAlternate }}
       >
-<<<<<<< HEAD
         <div className="portfolio-item__title">Badass</div>
 
         <div className="portfolio-item__desc">
@@ -27,17 +26,6 @@ const PortfolioItem = (props, context) => {
         <div className="portfolio-item__links">
           <a src="#">Code</a>
           <a src="#">Blog</a>
-=======
-        <div className="portfolio-item__title"></div>
-
-        <div className="portfolio-item__desc">
-
-        </div>
-        <div className="portfolio-item__icon">
-        </div>
-        <div className="portfolio-item__links">
-
->>>>>>> dad1b4992eae68f9574be283b50be56e64e6d508
         </div>
       </div>
     );

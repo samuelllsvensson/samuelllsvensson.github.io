@@ -11,10 +11,6 @@ nav {
 
   @include breakpoint-small-down {
     height: 4rem;
-<<<<<<< HEAD
-=======
-    justify-content: center;
->>>>>>> dad1b4992eae68f9574be283b50be56e64e6d508
   }
 
   .magic-wand {
@@ -57,14 +53,7 @@ nav {
     display: flex;
     flex: 1;
     justify-content: flex-end;
-<<<<<<< HEAD
 
-=======
-    @include breakpoint-small-down {
-    
-    justify-content: center;
-    }
->>>>>>> dad1b4992eae68f9574be283b50be56e64e6d508
     &__item {
       padding: 0.25rem 0;
       margin: 0 1rem;
