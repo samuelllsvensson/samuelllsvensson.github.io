@@ -234,7 +234,7 @@ export default [{
 				  <h4 className="modal-title">Space game made in Unity </h4>
 				</div>
 				<div className="modal-body">
-				  <p>For this project, we had free reins over what we wanted to do, as long as it was about audio. This was for the course 'Physics of Sound - <a href="https://liu.se/studieinfo/kurs/tnm040/ht-2019/" target="_blank" rel="noopener noreferrer"> TFYA65</a>'  </p>
+				  <p>For this project, we had free reins over what we wanted to do, as long as it was about audio. This was for the course 'Physics of Sound - <a href="https://studieinfo.sc2-prod-cd1.ad.liu.se/kurs/tfya65/ht-2019/" target="_blank" rel="noopener noreferrer"> TFYA65</a>'  </p>
 				 
 				  <p>We decided it would be interesting to incorporate some sort of audio visualization and then later on make it into a game to give it some purpose. 
 				  The result was "SpaceGame" (a superb name), where the goal was to avoid the frequency bars that were scaling up or down depending on how much information that specific band contained.
