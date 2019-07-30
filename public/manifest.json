@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "short_name": "Samuel Svensson",
   "name": "Samuel Svensson | Engineering student",
+=======
+  "short_name": "Dinesh Pandiyan",
+  "name": "Dinesh Pandiyan | Full Stack Dev",
+>>>>>>> dad1b4992eae68f9574be283b50be56e64e6d508
   "icons": [
     {
       "src": "favicon.ico",
