@@ -1,0 +1,557 @@
+{
+  "SiteId": "10",
+  "SiteName": "Vasen",
+  "EnterpriseName": "EnterpriseName",
+  "TimeStamp": "2019-08-15T05:29:04Z",
+  "ReportId": "353202",
+  "DetailReportEvaluationDto": {
+    "Result": "Ok"
+  },
+  "IndividualDetailEvaluationsDtos": [
+    {
+      "Name": "NetTimeResult",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T05:22:30Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "SyncDiff",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Amount",
+          "Value": "0",
+          "Type": "System.String"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "MilkReportTime",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T05:00:04Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "LatestIdBlobTime",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T04:41:59Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "NumberOfIdBlobsLastMilking",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Amount",
+          "Value": "448",
+          "Type": "System.Int32"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "LatestSuccessfulCowTime",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T04:24:31Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "NumberOfCowsLastMilking",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Amount",
+          "Value": "464",
+          "Type": "System.Int32"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "CleaningPingResult",
+      "Category": "Details",
+      "DeviceName": "Cleaning",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Result",
+          "Value": "success",
+          "Type": "System.String"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "EmptyDriveSpaceInBytes",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Amount",
+          "Value": "1027278483456",
+          "Type": "System.Int64"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "LatestTreatmentSyncTime",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timestamp",
+          "Value": "2017-11-27T10:55:46Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "MilkTimesUsed",
+      "Category": "Static",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "MilkTimes",
+          "Value": "02-09,10-17,18-01",
+          "Type": "System.String"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "02-09,10-17,18-01"
+      }
+    },
+    {
+      "Name": "LastestDairySyncTime",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timestamp",
+          "Value": "NoValue",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "LastPanolaConfigBackup",
+      "Category": "Details",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T00:00:30Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "TimezoneId",
+      "Category": "Static",
+      "DeviceName": null,
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timezone",
+          "Value": "W. Europe Standard Time",
+          "Type": "System.String"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "W. Europe Standard Time"
+      }
+    },
+    {
+      "Name": "cameraPingWraper",
+      "Category": "Cameras",
+      "DeviceName": "LeftCamera1",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Amount",
+          "Value": "success",
+          "Type": "System.String"
+        },
+        {
+          "Name": "ModuleId",
+          "Value": "2",
+          "Type": "System.Int64"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "cameraPingWraper",
+      "Category": "Cameras",
+      "DeviceName": "RightCamera1",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Amount",
+          "Value": "success",
+          "Type": "System.String"
+        },
+        {
+          "Name": "ModuleId",
+          "Value": "10",
+          "Type": "System.Int64"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "cameraImageTimeWraper",
+      "Category": "Cameras",
+      "DeviceName": "LeftCamera1",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T05:29:04Z",
+          "Type": "System.DateTime"
+        },
+        {
+          "Name": "ModuleId",
+          "Value": "2",
+          "Type": "System.Int64"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "cameraImageTimeWraper",
+      "Category": "Cameras",
+      "DeviceName": "RightCamera1",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T05:29:04Z",
+          "Type": "System.DateTime"
+        },
+        {
+          "Name": "ModuleId",
+          "Value": "10",
+          "Type": "System.Int64"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "Total",
+      "Category": "Cows",
+      "DeviceName": "NoDevice",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Type",
+          "Value": "Total",
+          "Type": "System.String"
+        },
+        {
+          "Name": "Amount",
+          "Value": "459",
+          "Type": "System.Int64"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "Obs",
+      "Category": "Cows",
+      "DeviceName": "NoDevice",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Type",
+          "Value": "Obs",
+          "Type": "System.String"
+        },
+        {
+          "Name": "Amount",
+          "Value": "0",
+          "Type": "System.Int64"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "Treatment",
+      "Category": "Cows",
+      "DeviceName": "NoDevice",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Type",
+          "Value": "Treatment",
+          "Type": "System.String"
+        },
+        {
+          "Name": "Amount",
+          "Value": "35",
+          "Type": "System.Int64"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "moduleStatusWraper",
+      "Category": "Modules",
+      "DeviceName": "CowHandler",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Status",
+          "Value": "1",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "ModuleId",
+          "Value": "8",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T05:28:56Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "moduleStatusWraper",
+      "Category": "Modules",
+      "DeviceName": "SystemStatusHandler",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Status",
+          "Value": "1",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "ModuleId",
+          "Value": "9",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T05:28:39Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "moduleStatusWraper",
+      "Category": "Modules",
+      "DeviceName": "Statistics",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Status",
+          "Value": "1",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "ModuleId",
+          "Value": "16",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T05:28:13Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "moduleStatusWraper",
+      "Category": "Modules",
+      "DeviceName": "LeftCamera1",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Status",
+          "Value": "1",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "ModuleId",
+          "Value": "2",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T05:28:58Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "moduleStatusWraper",
+      "Category": "Modules",
+      "DeviceName": "RightCamera1",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "Status",
+          "Value": "1",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "ModuleId",
+          "Value": "10",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T05:28:51Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "measurementWraper",
+      "Category": "Cameras",
+      "DeviceName": "LeftCamera1",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "ModuleId",
+          "Value": "2",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T04:29:33Z",
+          "Type": "System.DateTime"
+        },
+        {
+          "Name": "TotalMeasurements",
+          "Value": "447",
+          "Type": "System.Int32"
+        },
+        {
+          "Name": "SuccessfulMeasurements",
+          "Value": "446",
+          "Type": "System.Int32"
+        },
+        {
+          "Name": "PercentSuccessfulMeasurements",
+          "Value": "100",
+          "Type": "System.Int32"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    },
+    {
+      "Name": "measurementWraper",
+      "Category": "Cameras",
+      "DeviceName": "RightCamera1",
+      "DetailReportValuesDtos": [
+        {
+          "Name": "ModuleId",
+          "Value": "10",
+          "Type": "System.Int64"
+        },
+        {
+          "Name": "Timestamp",
+          "Value": "2019-08-15T04:29:03Z",
+          "Type": "System.DateTime"
+        },
+        {
+          "Name": "TotalMeasurements",
+          "Value": "447",
+          "Type": "System.Int32"
+        },
+        {
+          "Name": "SuccessfulMeasurements",
+          "Value": "441",
+          "Type": "System.Int32"
+        },
+        {
+          "Name": "PercentSuccessfulMeasurements",
+          "Value": "99",
+          "Type": "System.Int32"
+        }
+      ],
+      "IndividualReportEvaluation": {
+        "Result": "Ok"
+      }
+    }
+  ]
+}

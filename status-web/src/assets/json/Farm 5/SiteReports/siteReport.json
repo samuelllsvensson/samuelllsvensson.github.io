@@ -1,0 +1,24 @@
+{
+  "SiteId": "5",
+  "SiteName": "Hagelsrum",
+  "EnterpriseName": "EnterpriseName",
+  "TimeStamp": "2019-08-15T00:44:02Z",
+  "SiteReportEvaluationDto": {
+    "Result": "Error"
+  },
+  "IndividualSiteEvaluationsDtos": [
+    {
+      "Name": "Timestamp",
+      "Category": "NoCategory",
+      "SiteReportValuesDtos": [
+        {
+          "Value": "2019-08-15T00:44:02Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualSiteEvaluation": {
+        "Result": "Error"
+      }
+    }
+  ]
+}

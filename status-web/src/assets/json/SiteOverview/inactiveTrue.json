@@ -1,0 +1,146 @@
+[
+  {
+    "SiteId": "1",
+    "SiteName": "Bergs Säteri",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Warning"
+    }
+  },
+  {
+    "SiteId": "2",
+    "SiteName": "Silvermjölk",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Warning"
+    }
+  },
+  {
+    "SiteId": "5",
+    "SiteName": "Hagelsrum",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "6",
+    "SiteName": "Hyllela",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Warning"
+    }
+  },
+  {
+    "SiteId": "7",
+    "SiteName": "Ogestad_Old",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "8",
+    "SiteName": "Norra Ljunga",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "10",
+    "SiteName": "Vasen",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Ok"
+    }
+  },
+  {
+    "SiteId": "12",
+    "SiteName": "Sörans",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "13",
+    "SiteName": "Vadsbo",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Ok"
+    }
+  },
+  {
+    "SiteId": "17",
+    "SiteName": "Nästgården",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "19",
+    "SiteName": "Assagarden",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Ok"
+    }
+  },
+  {
+    "SiteId": "23",
+    "SiteName": "Kolstorp",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "25",
+    "SiteName": "Norra Ljunga Robot",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "27",
+    "SiteName": "Econiva",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "28",
+    "SiteName": "Otterslätten",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "29",
+    "SiteName": "Ogestad",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Warning"
+    }
+  },
+  {
+    "SiteId": "30",
+    "SiteName": "Västraby",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  },
+  {
+    "SiteId": "31",
+    "SiteName": "Tyskagården",
+    "EnterpriseName": "EnterpriseName",
+    "EvaluationDto": {
+      "Result": "Error"
+    }
+  }
+]

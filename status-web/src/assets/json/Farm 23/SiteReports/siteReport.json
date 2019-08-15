@@ -1,0 +1,24 @@
+{
+  "SiteId": "23",
+  "SiteName": "Kolstorp",
+  "EnterpriseName": "EnterpriseName",
+  "TimeStamp": "2019-07-29T01:14:20Z",
+  "SiteReportEvaluationDto": {
+    "Result": "Error"
+  },
+  "IndividualSiteEvaluationsDtos": [
+    {
+      "Name": "Timestamp",
+      "Category": "NoCategory",
+      "SiteReportValuesDtos": [
+        {
+          "Value": "2019-07-29T01:14:20Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualSiteEvaluation": {
+        "Result": "Error"
+      }
+    }
+  ]
+}

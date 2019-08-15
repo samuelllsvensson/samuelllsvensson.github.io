@@ -1,0 +1,24 @@
+{
+  "SiteId": "1",
+  "SiteName": "Bergs Säteri",
+  "EnterpriseName": "EnterpriseName",
+  "TimeStamp": "2019-08-15T08:55:05Z",
+  "SiteReportEvaluationDto": {
+    "Result": "Warning"
+  },
+  "IndividualSiteEvaluationsDtos": [
+    {
+      "Name": "Timestamp",
+      "Category": "NoCategory",
+      "SiteReportValuesDtos": [
+        {
+          "Value": "2019-08-15T08:55:05Z",
+          "Type": "System.DateTime"
+        }
+      ],
+      "IndividualSiteEvaluation": {
+        "Result": "Ok"
+      }
+    }
+  ]
+}
