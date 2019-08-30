@@ -111,7 +111,7 @@ export default [{
 					 <center><p><strong>Developing skills in: .NET framework (C#), React, Redux, Material UI v.4,  </strong><i></i></p></center>
 				  </div>
 				  <div className="modal-footer">
-				  	<a target="_blank" rel="noopener noreferrer" href='/status-web/'>Live website</a>
+				  	<a target="_blank" rel="noopener noreferrer" href='/status-web/'>Live website</a> <br/><br/>
 					<button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 				  </div>
 				</div>  

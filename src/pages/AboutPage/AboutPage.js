@@ -36,12 +36,11 @@ const AboutPage = (props, context) => {
               I’m currently in my third year and this spring I’m doing a project as part of my bachelor’s degree. Right now my greatest interests are in 3D-computer graphics, image processing and front-end development.
             </p>
             <p>
-              I’ve always had an interest in technology in general since I was very young. 
-              During my early teens I was keeping up to date on the newest computer hardware and was constantly upgrading my PC to be able play the latest games. 
-              As you can imagine, gaming was and is still a big part of my life. 
-              There’s something valuable in being creative enough to be able to create something that intrigues people. I think that applies to all software and not just games. 
-              That's probably where my fascination with programming came from. Since starting university I've developed a variety of small projects, sometimes in groups, sometimes alone. 
-              I've been learning fast but occasionally failing is what I believe is part of the journey. This fall I'm taking machine learning, network security programming and procedural rendering courses which I'm very much looking forward to.  </p>
+              I’ve always had an interest in technology in general since I was very young. During high school I realized it's possible to combine creativity with technology if you're programming. 
+              There’s something valuable in being creative enough to be able to create something that intrigues people. 
+              From the beginning i stuck with web programming since I always enjoyed being able to see what I'm creating instantly and apply different designs. 
+              Since starting university I've developed a variety of small projects, sometimes in groups, sometimes alone. 
+              I've been learning fast but occasionally failing. This fall I'm taking machine learning, network security programming and procedural rendering courses which I'm very much looking forward to.  </p>
 
             <p> During my three years so far at Linköpings University I’ve had the pleasure of getting to know several languages and frameworks. 
             Exactly what I learned is described more in-depth for the respective project in the ‘Portfolio’ page further down. Take a look!</p>
