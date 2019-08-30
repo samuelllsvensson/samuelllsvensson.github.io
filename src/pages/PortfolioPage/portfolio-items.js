@@ -21,12 +21,107 @@ import image15 from './images/aftereffects.jpg';
 import image16 from './images/threejs.png';
 import image17 from './images/matlab.png';
 import image18 from './images/ae.png';
-import image19 from './images/premiere.png';
 import image20 from './images/trebuchet.png';
 import image21 from './images/csharp.png';
 import image22 from './images/trebuchet2.png';
+import image23 from './images/reactredux.png';
+import image24 from './images/netlogo.png';
+import image25 from './images/old2.png';
+import image26 from './images/new1.PNG';
+import image27 from './images/new2.PNG';
 
 export default [{
+	name: 'summerjob',
+	render: (
+	  <div className='portfolio-item'>
+		<div className='portfolio-item__title'>
+			Web application in React+Redux with REST API
+		</div>
+		<div className='portfolio-item__desc'>
+		<h5> June 2019 - Aug 2019 </h5>
+		  Software internship, summer 2019
+		</div>
+		<div className='portfolio-item__icon'>
+		  <img src={image24} height="50" width="50" alt="dotnet logo"/>
+		  <img src={image23} height="100" width="100" alt="reactredux logo"/>
+		</div>
+		<div className='portfolio-item__links'>
+		  <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/status-web"><i className="fas fa-globe fa-lg"></i> </a>
+		  <a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal9">More</a>
+		</div>
+  
+		<div className="container">    
+			<div className="modal fade" id="myModal9" role="dialog">
+			  <div className="modal-dialog">                     
+				<div className="modal-content">
+				  <div className="modal-header">                
+					<h4 className="modal-title">Summer internship at Agricam AB</h4>
+				  </div>
+				  <div className="modal-body">
+				  <p><i>At Agricam I developed a front-end web application in React+Redux together with data fetched from a REST API built in ASP.NET. </i><br/><br/>
+				  	During the summer of 2019 I was a software intern at <a target="_blank" rel="noopener noreferrer" href="https://www.agricam.se/">Agricam AB</a>, an ‘AgTech’ company specializing in analyzing cattle to identify, and prevent early mastitis using thermal cameras.<br/><br/>
+					I was tasked with porting an already existing windows application showing different kinds of statuses from all farms. 
+					I also decoupled the current evaluation process (which was done inside the status application) so that the only thing the new web application would receive was evaluated, serialized and ready to be used data.  
+					I created several controllers which would evaluate custom data transfer objects and serialize them to several JSON-files. 
+					The front-end application (built in React+Redux) would then visualize the received data using Google’s 
+					<a target="_blank" rel="noopener noreferrer" href="https://material-ui.com/"> Material-UI</a> components. 
+					The <a target="_blank" rel="noopener noreferrer" href="https://dotnet.microsoft.com/apps/aspnet/apis">Web API</a> consisted of several GET-requests to fetch relevant site data and route these actions properly depending on the chosen site. <br/><br/>
+					Below is a censored image of the old WPF application displaying general site data. This application was old and not very user-friendly. 
+					A new web application would handle all data in a better way but also visualize it with a cleaner UI. 
+					</p>
+					<br/> 
+					<a target="_blank" rel="noopener noreferrer" href={image25}><img src={image25} height="100%" width="100%" alt ="gameplay" onclick='this.src={image25}' /></a>
+					<br/>            
+					<center> Detailed report from old WPF status application.  </center>
+					<br/>
+					The web application consists of two main pages, an overview of all farms, and a detailed report of all relevant status data fetched from the database. 
+					Some of the functionality included:
+					<ul> 
+						<li>- Full handling of a serialized JSON-file to select and send relevant data to each component independently</li>
+						<li>- Paging between status reports in time</li>
+						<li>- Implementation of styling, translation and more using React Hooks</li>
+						<li>- Several dispatching Redux actions for every API GET-Request (if needed)</li>
+						<li>- Fully modular for future development</li>
+						<li>- Intuitive UI which allows all people to easily understand and use the application without much prior training.</li>
+						<li>- Internationalization with i18next for enabling localization between chosen languages.</li>
+					</ul>
+					<br/>
+					Below are two images showing both the resulting overview page and detailed report containing evaluated status data. 
+					<br/><br/>
+					<a target="_blank" rel="noopener noreferrer" href={image26}><img src={image26} height="100%" width="100%" alt ="gameplay" /></a>
+					<br/>            
+					<center>New overview interface.</center>
+					<br/>
+					<a target="_blank" rel="noopener noreferrer" href={image27}><img src={image27} height="100%" width="100%" alt ="gameplay" /></a>
+					<br/>            
+					<center>New detailed report view.</center>
+					<br/>
+					In conclusion, my summer involved a lot of problem-solving, constantly learning new things and finishing a fully-fledged product to be used internally within the organization. I also learned proper coding etiquette, the Git workflow in a professional setting and what developing might look like at a smaller company. 
+					In addition to this I did administrational work as well as doing maintenance of the system for all the farms to make sure everything was operational during the summer holidays.
+					<br/><br/>
+					<i>
+					To fully show off my work this summer I’ve hosted the application (with censored mock data) <a target="_blank" rel="noopener noreferrer" href='/status-web/'>here</a> for anyone interested to interact with. 
+					This version does not use the controllers to call the web API. It simply reads static JSON data for displaying purposes. 
+					Not all sites contain data and paging between reports is limited. 
+					Furthermore, the implementation is not optimal solely because of time constraints. 
+					</i>
+					<br/><br/>
+					Agricam was very satisfied with my work and offered me a part-time job to partake in upcoming projects this fall. 
+					<br/><br/>
+					 <center><p><strong>Developing skills in: .NET framework (C#), React, Redux, Material UI v.4,  </strong><i></i></p></center>
+				  </div>
+				  <div className="modal-footer">
+				  	<a target="_blank" rel="noopener noreferrer" href='/status-web/'>Live website</a>
+					<button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+				  </div>
+				</div>  
+			  </div>
+			</div>        
+		  </div>
+  
+	  </div>
+	)
+  }, {
   name: 'bachelors',
   render: (
 	<div className='portfolio-item'>
@@ -75,7 +170,7 @@ export default [{
 				        allowFullScreen
 				  />
 				  <br/><br/>
-				   <center><p><strong>Developing skills in: </strong><i>Organising, planning, management, decision-making, problem-solving, individual responsibilities, C#, 3D-modelling, AR,  Git, Scrum, Software and Agile development.</i></p></center>
+				   <center><p><strong>Developing skills in: </strong><i>C#, 3D-modelling, AR,  Git, Scrum, Software and Agile development, problem-solving, individual responsibilities,.</i></p></center>
 				</div>
 				<div className="modal-footer">
 				  <a href="files/kandidatrapport.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report (Swedish)</a><br/><br/>
@@ -126,17 +221,18 @@ export default [{
 				  All objects were modeled in Blender 2.8 which supported glTF exporting. 
 				  </p>
 				  <br/>
-				  <img src={image20} height="100%" width="100%" alt ="gameplay" />  
+				  <a target="_blank" rel="noopener noreferrer" href={image20}><img src={image20} height="100%" width="100%" alt ="gameplay" /></a>
 				  <br/>            
 				  <center> Complete 3D rendered simulation scene with adjustable parameters in the GUI.  </center>
 				  <br/>
-				  <img src={image22} height="100%" width="100%" alt ="gameplay2" />  
+				  <a target="_blank" rel="noopener noreferrer" href={image22}><img src={image22} height="100%" width="100%" alt ="gameplay2" /></a>
 				  <br/>            
 				  <center> Another angle.  </center>
 				  <br/>
-				  <center><p><strong>Developing skills in: </strong><i>Organising, planning, decision-making, problem-solving, Modelling, Simulation, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
+				  <center><p><strong>Developing skills in: </strong><i>Modelling, Simulation, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
 				</div>
 				<div className="modal-footer">
+					<a href="files/tnm085_report.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report (Swedish)</a><br/><br/>
 				  <a target="_blank" rel="noopener noreferrer" href='/trebuchet-simulation/'>Live website</a>
 				  <br/><br/>
 				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
@@ -244,7 +340,7 @@ export default [{
 				  <p>Colliding with the bars meant game over and to be able to stay in the air (vacuum?) you need to collect the falling batteries that spawn in random intervals and positions. 
 				  Asteroids were implemented to make the game more interesting. </p>
 				  <br/>
-				  <img src={image3} height="100%" width="100%" alt ="gameplay" />  
+				  <a target="_blank" rel="noopener noreferrer" href={image3}><img src={image3} height="100%" width="100%" alt ="gameplay" /></a>
 				  <br/>            
 				  <center> Gameplay of SpaceGame. </center>
 
@@ -303,7 +399,7 @@ export default [{
 				  <p>I wanted it to be personalized instead of just downloading any other app on the Play store. I wanted to be able to write her messages each day and show her specific photos, as a sort of a flashback. 
 				  I knew that for this to be able to work I needed a server to store both text and images and I decided that Google's Firebase would suit my needs perfectly. </p>
 				  <br/>
-				  <img src={image5} height="100%" width="100%" alt="firebase tree"/>  
+				  <a target="_blank" rel="noopener noreferrer" href={image5}><img src={image5} height="100%" width="100%" alt="firebase tree"/></a>
 				  <center>  Hash tree in Firebase with a 'Text' key and an 'img' key containing information for that day. </center>  
 				  <br/>
 				  <p> Creating an mobile app itself can be tedious work and since most of my coding experience previous before this was web development, it felt natural to stick with it. 
@@ -317,7 +413,7 @@ export default [{
 				  If the time had passed 03.00 am (PST) it would query the database with a new text and a new image (using Firebase Storage) for her to see in the morning.</p>
 				  <br/>
 
-				  <img src={image6} height="80%" width="80%" alt="100 dagar"/> 
+				  <a target="_blank" rel="noopener noreferrer" href={image6}><img src={image6} height="80%" width="80%" alt="100 dagar"/></a>
 				  <center>  Short snip of code that displayed current date and how many days were left. </center>  
 				  <br/>
 
@@ -328,7 +424,7 @@ export default [{
 				  <p>Finally I packaged my app into an .apk using <a href="https://build.phonegap.com/" target="_blank" rel="noopener noreferrer">Adobe Phonegap Build</a>. </p>
 				  <br/>
 
-				  <img src={image7} height="50%" width="50%" alt="finished app"/> 
+				  <a target="_blank" rel="noopener noreferrer" href={image7}><img src={image7} height="50%" width="50%" alt="finished app"/></a>
 				  <br/>
 				  <center>  Finished app the day before departure. </center>  
 				  <br/>
@@ -398,7 +494,7 @@ export default [{
 				  A spider-monster was modelled in 3DSMax (like many of the other objects in the maze) and programmed to run along a spline path when triggered by the player.
 				  Several puzzles were implemented into the game to add a layer of difficulty and lighting lowered to make it scary. </p>
 				  <br/>
-				  <img src={image8} height="100%" width="100%" alt="mazeplay"/> 
+				  <a target="_blank" rel="noopener noreferrer" href={image8}><img src={image8} height="100%" width="100%" alt="mazeplay"/></a>
 				  <br/>
 				  <center>  Blueprints of torch implementation. </center>  
 				  <br/>
@@ -408,7 +504,7 @@ export default [{
 				  <p>The player could play all by himself, or have a second person be their guide. 
 				  This second player would have access to a map of the maze and also the solutions to its puzzles which would help the first player progress faster.</p>
 				  <br/>
-				  <img src={image9} height="100%" width="100%" alt="mazemap"/> 
+				  <a target="_blank" rel="noopener noreferrer" href={image9}><img src={image9} height="100%" width="100%" alt="mazemap"/></a>
 				  <br/>
 				  <center>  The map that the second player would have access to. </center>  
 				  <br/><br/>
@@ -469,7 +565,7 @@ export default [{
 				  Because of this, I was able to simulate the day/night cycle depending on where my light (the Sun) was positioned. 
 				  The camera travels along a spline path with varying speeds and the entire project is about 400 frames. I rendered all of them into .EXR files which I then exported to After Effects.</p>
 				  <br/>
-				  <img src={image13} height="100%" width="100%" alt="Cinema4dworkspace"/> 
+				  <a target="_blank" rel="noopener noreferrer" href={image13}><img src={image13} height="100%" width="100%" alt="Cinema4dworkspace"/></a>
 				  <br/>
 				  <center>  Cinema4D workspace. </center>  
 				  <br/>
@@ -477,14 +573,14 @@ export default [{
 				  I solved this by extracting screenshots from Google maps by centering on my apartment, zooming out and then taking a screenshot from a distance. 
 				  I continued this until I was almost at ground level where I created a transition to my camera footage of my grabbing the camera. Using some special effects like blurs and adding more clouds I was able to create a very nice zooming effect. </p>
 				  <br/>
-				  <img src={image14} height="100%" width="100%" alt="Zoom"/> 
+				  <a target="_blank" rel="noopener noreferrer" href={image14}><img src={image14} height="100%" width="100%" alt="Zoom"/></a>
 				  <br/>
 				  <center> Putting all screenshots together into a sequence created a powerful and believable crashing effect.   </center>  
 				  <br/>
 				  <p>Finally I added some sound effects, color-corrected, an effect of smudges on the lens and scaled the video to upload on my personal <a href="https://www.instagram.com/p/Bay3GLFFpMX/" target="_blank" rel="noopener noreferrer">Instagram</a>.  </p>
 				 
 				  <br/>
-				  <img src={image15} height="100%" width="100%" alt="AfterEffects"/> 
+				  <a target="_blank" rel="noopener noreferrer" href={image15}><img src={image15} height="100%" width="100%" alt="AfterEffects"/></a>
 				  <br/>
 				  <center> Compositing in After Effects.  </center> 
 				  <br/>
@@ -603,7 +699,7 @@ export default [{
 				  The final result is a fully functionable website where you can search for either a LEGO ID or a LEGO name of a part. 
 				  The parts are displayed in a grid like layout where you can browse back and forth several pages of results. </p>
 				  <br/> 
-				  <img src={image11} height="100%" width="100%" alt="legohome"/> 
+				  <a target="_blank" rel="noopener noreferrer" href={image11}><img src={image11} height="100%" width="100%" alt="legohome"/></a>
 				  <br/>
 				  <center>The home page of the LEGO database</center>  
 				  <br/><br/>
@@ -612,69 +708,6 @@ export default [{
 				</div>
 				<div className="modal-footer">
 				  <a href="http://www.student.itn.liu.se/~ebbni997/legobas/" target="_blank" rel="noopener noreferrer">Live website</a><br/><br/>
-				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-				</div>
-			  </div>  
-			</div>
-		  </div>        
-		</div>
-
-	</div>
-  )
-}, 
-{
-
-
-  name: 'apocalypse',
-  render: (
-	<div className='portfolio-item'>
-	  <div className='portfolio-item__title'>      
-		Apocalypse short film
-	  </div>
-	  <div className='portfolio-item__desc'>
-	  <h5> Oct 2016 - Dec 2016 </h5>
-		Post-apocalyptic zombie-film at campus
-	  </div>
-	  <div className='portfolio-item__icon'>
-		<i className="fas fa-video"></i>    
-		<img src={image18} height="40" width="40" alt="After Effects"/>     
-		<img src={image19} height="40" width="40" alt="Premiere Pro"/>     
-	  </div>
-	  <div className='portfolio-item__links'>
-		<a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/194536185"><i className="fab fa-vimeo fa-lg"></i> </a>
-		<a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal8">More</a>
-	  </div>
-
-	  <div className="container">    
-		  <div className="modal fade" id="myModal8" role="dialog">
-			<div className="modal-dialog">                     
-			  <div className="modal-content">
-				<div className="modal-header">                
-				  <h4 className="modal-title">Apocalypse short film</h4>
-				</div>
-				<div className="modal-body">
-				  <p>The first course I studied at Linköpings University 'Digital media - TNM088' served as an introductory course in digital medias where we learned basic image processing, video production and graphic design/typography. 
-				  The final part of the course was a project where my group decided to create a short film. </p>
-				  <br/>
-
-				  <p>The film focuses on small details around on set and also ambient sound effects to make it seem more dramatic. A man wakes up bloody in a room and seems confused of his whereabouts. 
-				  He tries to get out of the room and search his surroundings for clues. He suffers intense flashbacks during this and he realizes what has happened to campus. Zombies chase him and he finally escapes... or does he? </p>
-				  <br/>
-				  Watch the short film below.
-				  <br/> <br/>	    
-				  <Iframe url="https://player.vimeo.com/video/194536185"
-				        width="520px"
-				        height="300px"
-				        id="myId"
-				        className="myClassname"
-				        display="initial"
-				        position="relative"
-				        allowFullScreen
-				  />
-				  <br/><br/>
-				  <center><p><strong>Developed skills in: </strong>  <i>Adobe Premiere Pro, Adobe After Effects, Film compositions and Script writing. </i></p> </center>
-				</div>
-				<div className="modal-footer">
 				  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			  </div>  

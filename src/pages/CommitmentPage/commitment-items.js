@@ -3,7 +3,52 @@ import image from './plants.jpg';
 import image2 from './legionen.jpeg';
 import image3 from './labass.jpg';
 import image4 from './cygnipåsk.jpg';
+import image5 from './lithehacklogo.png';
 export default [
+{
+  name: 'lithehack',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        LiTHehack
+      </div>
+      <div className='portfolio-item__desc'>
+        <h5> Sep 2019 - Now </h5>
+        Programming mentorship for other students 
+      </div>
+      <div className='portfolio-item__icon'>     
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="http://lithehack.se/"><i className="fas fa-globe fa-lg"></i> </a>
+        <a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal24">More</a>
+      </div>
+
+      <div className="container">    
+          <div className="modal fade" id="myModal24" role="dialog">
+            <div className="modal-dialog">                     
+              <div className="modal-content">
+                <div className="modal-header">                
+                  <h4 className="modal-title">LiTHehack</h4>
+                </div>
+                <div className="modal-body">
+                <p>LiTHehack is a student driven initiative aiming to help students at Linköping University with programming.</p>
+
+                  More text to be added. 
+                  <br/>
+                  <img src={image5} height="100%" width="100%" alt="cygniMTD"/> 
+                  <br/><br/>
+                  <center><p><strong>Developed skills in: </strong><i> Teaching, various programming languages and concepts. </i></p></center>           
+                </div>
+                <div className="modal-footer">
+                  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>  
+            </div>
+          </div>        
+        </div>
+    </div>
+  )
+}, 
 {
   name: 'cygni',
   render: (
@@ -19,11 +64,11 @@ export default [
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://cygni.se/"><i className="fas fa-globe fa-lg"></i> </a>
-        <a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal9">More</a>
+        <a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal25">More</a>
       </div>
 
       <div className="container">    
-          <div className="modal fade" id="myModal9" role="dialog">
+          <div className="modal fade" id="myModal25" role="dialog">
             <div className="modal-dialog">                     
               <div className="modal-content">
                 <div className="modal-header">                
