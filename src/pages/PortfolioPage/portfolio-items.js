@@ -46,7 +46,7 @@ export default [{
 		  <img src={image23} height="100" width="100" alt="reactredux logo"/>
 		</div>
 		<div className='portfolio-item__links'>
-		  <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/status-web"><i className="fas fa-globe fa-lg"></i> </a>
+		  <a target="_blank" rel="noopener noreferrer" href="/status-web/"><i className="fas fa-globe fa-lg"></i> </a>
 		  <a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal9">More</a>
 		</div>
   

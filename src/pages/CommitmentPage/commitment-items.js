@@ -32,9 +32,19 @@ export default [
                 </div>
                 <div className="modal-body">
                 <p>LiTHehack is a student driven initiative aiming to help students at Linköping University with programming.</p>
-
-                  More text to be added. 
                   <br/>
+                  Many first year students arrive without any prior programming experience, while some have. 
+                  LiTHehack was founded in 2013 by a group of students who wanted to support students with both studies and hobby projects.
+                  At the Media technology programme first year students take a programming course each period/quarter to create a good foundation for the later years. 
+                  These courses are often taught in very different languages which can complicate things and that's why LiTHehack exists as an aid. 
+                  <br/><br/>
+                  Every tuesday and thursdays, in a computer lab, two LiTHehack mentors are available to help other students. 
+                  Anyone is offered guidance whether it’s a school assignment, laboration or just a personal project. 
+                  As a mentor we are paid and employed by Linköpings University, very similarly as with my lab assistant/TA commitment during my second year.
+                  <br/><br/>
+                  As a LiTHehack member we are responsible with keeping close contact with the university's IT-department if there is a need to update certain software on the computers in the lab. 
+                  We also arrange several events for the students during the year such as competitions (sponsored by companies) or in the form of lectures regarding something coding related.
+                  <br/><br/>
                   <img src={image5} height="100%" width="100%" alt="cygniMTD"/> 
                   <br/><br/>
                   <center><p><strong>Developed skills in: </strong><i> Teaching, various programming languages and concepts. </i></p></center>           
@@ -171,7 +181,7 @@ export default [
             <div className="modal-dialog">                     
               <div className="modal-content">
                 <div className="modal-header">                
-                  <h4 className="modal-title">Lab assistant at LiU</h4>
+                  <h4 className="modal-title">Lab assistant/TA at LiU</h4>
                 </div>
                 <div className="modal-body">
                   <p>During my second year I had the time to be able to work extra as a lab assistant for the university. 
@@ -180,7 +190,7 @@ export default [
                   <br/>
                   <img src={image3} height="100%" width="100%" alt="labassistant"/> 
                   <br/>
-                  <center> A big part of being a lab assistant is to prepare acquaint yourself with the code of the laborations.</center>  
+                  <center> A big part of being a lab assistant is to acquaint yourself with the code of the laborations held during the course.</center>  
                   <br/>
                   For further information about the laborations, click <a href="http://webstaff.itn.liu.se/~nikro27/tnmk30-2018/laborationer.php" target="_blank" rel="noopener noreferrer">here</a>.
                   <br/><br/> 
