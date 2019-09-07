@@ -11,6 +11,7 @@ const ArchivePage = (props, context) => {
     theme: { colorPrimary, colorAlternate, textAlternate, bgPrimary }
   } = context;
 
+  
   return (
     <div className="archive-page" style={{ backgroundColor: bgPrimary }}>
       <div className="content-grid">

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import PortfolioItem from '@components/PortfolioItem';
@@ -8,11 +8,18 @@ import ScrollToNext from '@components/ScrollToNext';
 import portfolioItems from './portfolio-items';
 
 import './style.scss';
+const scrollToRef = (ref) => window.scrollTo({
+  top: ref.current.offsetTop + 100, 
+  behavior: 'smooth' 
+});
 
 const PortfolioPage = (props, context) => {
   const {
     theme: { colorPrimary, colorAlternate, textAlternate, bgPrimary }
   } = context;
+  
+  const myRef = useRef(null);
+  const executeScroll = () => scrollToRef(myRef);
 
   return (
     <Router>
@@ -39,7 +46,11 @@ const PortfolioPage = (props, context) => {
               <PortfolioItem render={item.render} key={i} />
             ))}
           </div>
-          <div className="portfolio-archive"><Link to="/portfolio-archive/"><h4 style={{ color: colorPrimary }}>Archive</h4></Link></div>
+          <div className="portfolio-archive" ref={myRef} onClick={executeScroll}>
+            <Link to="/portfolio-archive/">
+              <h4 style={{ color: colorPrimary }}>Archive</h4>
+            </Link>
+          </div>
         </div>
         <ScrollToNext pageSelector=".commitment-page" />
         <Route path="/portfolio-archive/" component={ArchivePage} />
