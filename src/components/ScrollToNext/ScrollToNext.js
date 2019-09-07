@@ -14,8 +14,8 @@ class ScrollToNext extends Component {
   render() {
     const { theme: { colorPrimary } } = this.context;
     return (
-      <div className="scroll-to-next" onClick={(e) => this.scrollToNext()}>
-        <div className="arrow bounce" style={{ color: colorPrimary }}>
+      <div className="scroll-to-next">
+        <div className="arrow bounce" style={{ color: colorPrimary, width: '10vw' }} onClick={(e) => this.scrollToNext()}>
           <div className="scroll-text">Click Me</div>
           <button className="fas fa-chevron-down fa-2x" href="#" />
         </div>

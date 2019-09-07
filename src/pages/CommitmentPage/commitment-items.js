@@ -1,5 +1,4 @@
 import React from 'react';
-import image from './plants.jpg';
 import image2 from './legionen.jpeg';
 import image3 from './labass.jpg';
 import image4 from './cygnipåsk.jpg';
@@ -207,59 +206,5 @@ export default [
 
     </div>
   )
-}, 
-
-{
-  name: 'leisure',
-  render: (
-    <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-        Leisure time interests
-      </div>
-      <div className='portfolio-item__desc'>
-      <h5> July 1995 - Now </h5>
-        Film editing, plants, being out in nature
-      </div>
-      <div className='portfolio-item__icon'>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal22">More</a>
-      </div>
-
-      <div className="container">    
-          <div className="modal fade" id="myModal22" role="dialog">
-            <div className="modal-dialog">                     
-              <div className="modal-content">
-                <div className="modal-header">                
-                  <h4 className="modal-title">Leisure time interests</h4>
-                </div>
-                <div className="modal-body">
-                  <p> I've had numerous interests when growing up and whenever I have free time I try to indulge in them. When I started studying at university I noticed my free time was getting limited. 
-                  In between managing my time for studies and other extra curricular activities I find myself often behind a computer screen. It's a stress relief for me and there's a range of things to do. 
-                  I can learn something new that isn't related to my degree, watch tv-series & movies or play video-games. It's something that helps me recover and gain new energy for the next day. </p>
-                  <br/>
-
-                  <p>It's always fun to learn new things, and luckily for me I've chosen a degree which aligns with a lot of my interests.</p>
-                  <br/>
-                  <p>I try to live a healthy lifestyle where I eat healthy and exercise as often as I am able to and it has become an interest in itself. 
-                  Some weekends I travel either back home to visit family or to Stockholm where the majority of my closest friends live.  </p>
-                  <br/>
-                  <img src={image} alt="plants" />
-                   <br/>
-                  <center> My plants. </center>  
-                  
-                  <br/><br/> 
-                  <center><p><strong>Developed skills in: </strong><i>Adobe Premiere Pro, Adobe After Effects, Cinema4D, Being alive, Planting plants and watering them. </i></p></center> 
-
-                </div>
-                <div className="modal-footer">
-                  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-              </div>  
-            </div>
-          </div>        
-        </div>
-
-    </div>
-  )
-},   ]
+},
+]

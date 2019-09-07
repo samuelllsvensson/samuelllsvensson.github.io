@@ -101,6 +101,8 @@
     "extends": "react-app"
   },
   "dependencies": {
-    "react-iframe": "^1.8.0"
+    "react-iframe": "^1.8.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1"
   }
 }

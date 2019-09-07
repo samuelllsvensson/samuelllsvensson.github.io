@@ -70,7 +70,7 @@ export default [{
 					A new web application would handle all data in a better way but also visualize it with a cleaner UI. 
 					</p>
 					<br/> 
-					<a target="_blank" rel="noopener noreferrer" href={image25}><img src={image25} height="100%" width="100%" alt ="gameplay" onclick='this.src={image25}' /></a>
+					<a target="_blank" rel="noopener noreferrer" href={image25}><img src={image25} height="100%" width="100%" alt ="gameplay" /></a>
 					<br/>            
 					<center> Detailed report from old WPF status application.  </center>
 					<br/>
@@ -103,7 +103,7 @@ export default [{
 					To fully show off my work this summer I’ve hosted the application (with censored mock data) <a target="_blank" rel="noopener noreferrer" href='/status-web/'>here</a> for anyone interested to interact with. 
 					This version does not use the controllers to call the web API. It simply reads static JSON data for displaying purposes. 
 					Not all sites contain data and paging between reports is limited. 
-					Furthermore, the implementation is not optimal solely because of time constraints. 
+					Furthermore, the implementation is not optimal solely because of time constraints and was not designed to be mobile-friendly. 
 					</i>
 					<br/><br/>
 					Agricam was very satisfied with my work and offered me a part-time job to partake in upcoming projects this fall. 
