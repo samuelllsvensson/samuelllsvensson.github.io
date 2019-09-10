@@ -3,6 +3,7 @@ import image2 from './legionen.jpeg';
 import image3 from './labass.jpg';
 import image4 from './cygnipåsk.jpg';
 import image5 from './lithehacklogo.png';
+import image6 from './lithehackpic.jpg';
 export default [
 {
   name: 'lithehack',
@@ -37,6 +38,8 @@ export default [
                   At the Media technology programme first year students take a programming course each period/quarter to create a good foundation for the later years. 
                   These courses are often taught in very different languages which can complicate things and that's why LiTHehack exists as an aid. 
                   <br/><br/>
+                  <img src={image5} height="70%" width="70%" alt="lithehacklogo"/> 
+                  <br/><br/>
                   Every tuesday and thursdays, in a computer lab, two LiTHehack mentors are available to help other students. 
                   Anyone is offered guidance whether it’s a school assignment, laboration or just a personal project. 
                   As a mentor we are paid and employed by Linköpings University, very similarly as with my lab assistant/TA commitment during my second year.
@@ -44,7 +47,7 @@ export default [
                   As a LiTHehack member we are responsible with keeping close contact with the university's IT-department if there is a need to update certain software on the computers in the lab. 
                   We also arrange several events for the students during the year such as competitions (sponsored by companies) or in the form of lectures regarding something coding related.
                   <br/><br/>
-                  <img src={image5} height="100%" width="100%" alt="cygniMTD"/> 
+                  <img src={image6} height="60%" width="60%" alt="lithehackpicture"/> 
                   <br/><br/>
                   <center><p><strong>Developed skills in: </strong><i> Teaching, various programming languages and concepts. </i></p></center>           
                 </div>
