@@ -45,7 +45,7 @@ const AboutPage = (props, context) => {
             <p> During my three years so far at Linköpings University I’ve had the pleasure of getting to know several languages and frameworks. 
             Exactly what I learned is described more in-depth for the respective project in the ‘Portfolio’ page further down. Take a look!</p>
 
-            <p> This summer I'm developing professionally as an intern at Agricam AB whose software helps farmers detect mastitis in cattle using IR cameras and image processing together with machine learning.  </p>
+            <p> I'm currently searching for internships for the summer 2020 where I can develop professionally. Contact me if you're interested!</p>
             
            
             <p className="regards">
