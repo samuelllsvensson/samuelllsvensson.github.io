@@ -143,7 +143,7 @@ export default [
 						<br/>            
 						<center> Home website with input form </center>
 						<br/>
-						<center><p><strong>Developing skills in:    </strong><i></i></p></center>
+						<center><p><strong>Developing skills in: Python with Flask, Vue, Machine learning algorithms, text summarization techniques.   </strong><i></i></p></center>
 					  </p>
 					  </div>
 					  <div className="modal-footer">
