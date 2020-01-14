@@ -21,11 +21,13 @@ import image27 from './images/new2.PNG';
 import image28 from './images/gameplaySS.png';
 import image29 from './images/gameplaySS2.png';
 import image30 from './images/teaserFaceRecog.png';
-import image31 from './images/pythonlogo.svg';
+import image31 from './images/pythonlogo.png';
 import image32 from './images/flasklogo.png';
 import image33 from './images/vuelogo.png';
 import image34 from './images/gastroliter.png';
 import image35 from './images/finalRender.png';
+import image36 from './images/osllogo.png';
+import image37 from './images/blenderlogo.png';
 export default [
 	{
 		name: 'ProceduralCorals',
@@ -39,8 +41,8 @@ export default [
 				Procedural coral mesh generation with OSL shading
 			</div>
 			<div className='portfolio-item__icon'>
-
-			</div>
+				<img src={image36} height="60" width="60" alt="osl logo"/>
+				<img src={image37} height="100" width="100" alt="blender logo"/>			</div>
 			<div className='portfolio-item__links'>
 				<a target="_blank" rel="noopener noreferrer" href="https://github.com/samuelllsvensson/Procedural_Corals"><i className="fab fa-github fa-lg"></i> </a>
 			  <a target="_blank" rel="noopener noreferrer" data-toggle="modal" data-target="#myModal13">More</a>
@@ -106,7 +108,7 @@ export default [
 				Abstractive text summarization using deep learning
 			</div>
 			<div className='portfolio-item__icon'>
-				<img src={image31} height="100" width="100" alt="python logo"/>
+				<img src={image31} height="90" width="90" alt="python logo"/>
 				<img src={image32} height="50" width="50" alt="flask logo"/>
 				<img src={image33} height="50" width="50" alt="vue logo"/>
 			</div>
