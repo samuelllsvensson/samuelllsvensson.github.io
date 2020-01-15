@@ -83,7 +83,7 @@ export default [
 						/>
 						<br/> <br/> 
 						
-						<center><p><strong>Developing skills in: Open Shading Language, Blender, Procedural methods and how to implement shaders with them.   </strong><i></i></p></center>
+						<center><p><strong>Developed skills in: Open Shading Language, Blender, Procedural methods and how to implement shaders with them.   </strong><i></i></p></center>
 					  </p>
 					  </div>
 					  <div className="modal-footer">
@@ -145,7 +145,7 @@ export default [
 						<br/>            
 						<center> Home website with input form </center>
 						<br/>
-						<center><p><strong>Developing skills in: Python with Flask, Vue, Machine learning algorithms, text summarization techniques.   </strong><i></i></p></center>
+						<center><p><strong>Developed skills in: Python with Flask, Vue, Machine learning algorithms, text summarization techniques.   </strong><i></i></p></center>
 					  </p>
 					  </div>
 					  <div className="modal-footer">
@@ -209,7 +209,7 @@ export default [
 						<br/>            
 						<center> Image sequence with parts of the project pipeline. </center>
 						<br/>
-						<center><p><strong>Developing skills in: MATLAB, image and signal processing.  </strong><i></i></p></center>
+						<center><p><strong>Developed skills in: MATLAB, image and signal processing.  </strong><i></i></p></center>
 					  </p>
 					  </div>
 					  <div className="modal-footer">
@@ -291,7 +291,7 @@ export default [
 								allowFullScreen
 						/>
 						<br/><br/>
-						<center><p><strong>Developing skills in: Unity, C#, Game design.  </strong><i></i></p></center>
+						<center><p><strong>Developed skills in: Unity, C#, Game design.  </strong><i></i></p></center>
 					  </p>
 					  </div>
 					  <div className="modal-footer">
@@ -382,7 +382,7 @@ export default [
 					<br/><br/>
 					Agricam was very satisfied with my work and offered me a part-time job to partake in upcoming projects this fall. 
 					<br/><br/>
-					 <center><p><strong>Developing skills in: .NET framework (C#), React, Redux, Material UI v.4.  </strong><i></i></p></center>
+					 <center><p><strong>Developed skills in: .NET framework (C#), React, Redux, Material UI v.4.  </strong><i></i></p></center>
 				  </div>
 				  <div className="modal-footer">
 				  	<a target="_blank" rel="noopener noreferrer" href='/status-web/'>Live website</a> <br/><br/>
@@ -444,7 +444,7 @@ export default [
 				        allowFullScreen
 				  />
 				  <br/><br/>
-				   <center><p><strong>Developing skills in: </strong><i>C#, 3D-modelling, AR,  Git, Scrum, Software and Agile development, problem-solving.</i></p></center>
+				   <center><p><strong>Developed skills in: </strong><i>C#, 3D-modelling, AR,  Git, Scrum, Software and Agile development, problem-solving.</i></p></center>
 				</div>
 				<div className="modal-footer">
 				  <a href="files/kandidatrapport.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report (Swedish)</a><br/><br/>
@@ -503,7 +503,7 @@ export default [
 				  <br/>            
 				  <center> Another angle.  </center>
 				  <br/>
-				  <center><p><strong>Developing skills in: </strong><i>Modelling, Simulation, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
+				  <center><p><strong>Developed skills in: </strong><i>Modelling, Simulation, Javascript, Three.Js, MATLAB, Blender and Git.</i></p></center>
 				</div>
 				<div className="modal-footer">
 					<a href="files/tnm085_report.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report (Swedish)</a><br/><br/>
