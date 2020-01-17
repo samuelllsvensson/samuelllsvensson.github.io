@@ -87,6 +87,7 @@ export default [
 					  </p>
 					  </div>
 					  <div className="modal-footer">
+					  <a href="files/Procedurella_projekt.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" >Project report</a><br/><br/>
 						<button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
 					  </div>
 					</div>  
