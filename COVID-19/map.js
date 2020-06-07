@@ -34,6 +34,7 @@ let myLayerOptions = {
 		return new L.LatLng(coords[0], coords[1], coords[2]);
 	}
 };
+
 var map = L.map('map', {
 	center: [ 20, 60 ],
 	zoom: 2,
@@ -119,7 +120,8 @@ $.when(
 
 	var predictArray = regression.linear(confirmedDaysArray);
 	var predictExp = regression.exponential(confirmedDaysArray);
-
+	log(predictArray);
+	log(predictExp);
 	// Fill new arrays for easier calculations
 	var newPredictArray = [];
 	var newPredictExp = [];
@@ -135,8 +137,8 @@ $.when(
 	for (let index = 0; index < amountOfDays + predictionLength; index++) {
 		// amountOfDays - predictionLength because we want to show earlier data, not only current date and forward
 		if (index >= amountOfDays - predictionLength) {
-			newPredictArray[index] = (2540.19 * index + -5392.65).toFixed(0);
-			newPredictExp[index] = (17945.21 * Math.exp(0.04 * index)).toFixed(0);
+			newPredictArray[index] = (49956.96 * index + -1514747.04).toFixed(0);
+			newPredictExp[index] = (110313.24 * Math.exp(0.03 * index)).toFixed(0);
 		} else {
 			// remove 10 first slots in arrays because they cross x-axis
 			newPredictArray.splice(0, 5);
@@ -279,8 +281,9 @@ $.when(
 		config.options.scales.yAxes[0].type = chartType;
 		config.options.scales.yAxes[0].ticks = {
 			min: 0,
-			max: 1000000,
+			max: 10000000,
 			callback: function(value, index, values) {
+				if (value === 10000000) return '10M';
 				if (value === 1000000) return '1M';
 				if (value === 100000) return '100K';
 				if (value === 10000) return '10K';
@@ -370,12 +373,7 @@ d3.select('#dateSlider').on('input', function() {
 	var date = data.getDate();
 	var month = data.getMonth() + 1;
 	d3.select('#date-value').text(day + ', ' + date + '/' + month + '/' + data.getFullYear());
-	// Because of leading zero before march's days (from dataset)
-	// if (month == 3 && date < 10) {
-	// 	currentDate = month + '/0' + date + '/20';
-	// } else {
-	// 	currentDate = month + '/' + date + '/20';
-	// }
+
 	currentDate = month + '/' + date + '/20';
 	// Draw new circles
 	$.getJSON('data/' + state + '.geojson', (data) => {
@@ -385,11 +383,9 @@ d3.select('#dateSlider').on('input', function() {
 			location.push(number);
 			return location;
 		});
-		//
 		drawMapLayers(data);
 	});
 
-	//helper.updateConfirmedTotal(confirmedData[0]);
 });
 
 /* ------------------      DRAW CIRCLES       ----------------------- */
@@ -436,7 +432,7 @@ function createLayerStyle(customRadius) {
 		}
 		return {
 			color: circleColor,
-			radius: 2 * Math.log(customRadius * 2 + 5),
+			radius: 2 * Math.log(customRadius / 15),
 			stroke: false,
 			fillOpacity: 1
 		};
@@ -522,7 +518,7 @@ function getTotalSum(data, index) {
 }
 function getPercentage(data, index) {
 	var percentage = 0.0;
-	const max = 88371;
+	const max = 6891213;
 	percentage = 90 * data[index][1] / max + 4;
 	return percentage.toFixed(2);
 }
