@@ -17,7 +17,6 @@ var currentDate = '6/6/20';
 var number = 0;
 var start = new Date(startDate).getTime();
 var end = new Date(endDate).getTime();
-console.log(end);
 var step = 86400000;
 
 var state = 'confirmed';
@@ -27,7 +26,7 @@ const log = console.log;
 // Initialize map
 var svgPlot = d3.select('#map').append('svg').attr('width', width + margin.left + margin.right).attr('height', height);
 var basemap = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org">OpenMapTiles</a>, &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 });
 let myLayerOptions = {
 	pointToLayer: createCircles,
