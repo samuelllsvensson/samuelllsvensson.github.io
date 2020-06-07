@@ -26,9 +26,9 @@ const log = console.log;
 // Initialize map
 var svgPlot = d3.select('#map').append('svg').attr('width', width + margin.left + margin.right).attr('height', height);
 
-var basemap = L.tileLayer('https://stadiamaps.com/static/alidade_smooth_dark');
 
-//var basemap = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png');
+
+var basemap = L.tileLayer('https://api.maptiler.com/maps/nl-cartiqo-dark/style.json?key=YjGIBZWhMGb5WohbFhFI');
 let myLayerOptions = {
 	pointToLayer: createCircles,
 	coordsToLatLng: (coords) => {
