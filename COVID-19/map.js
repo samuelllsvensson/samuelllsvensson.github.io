@@ -28,7 +28,7 @@ var svgPlot = d3.select('#map').append('svg').attr('width', width + margin.left 
 
 
 
-var basemap = L.tileLayer('https://api.maptiler.com/maps/nl-cartiqo-dark/style.json?key=YjGIBZWhMGb5WohbFhFI');
+//var basemap = L.tileLayer('');
 let myLayerOptions = {
 	pointToLayer: createCircles,
 	coordsToLatLng: (coords) => {
@@ -37,9 +37,13 @@ let myLayerOptions = {
 };
 var map = L.map('map', {
 	center: [ 20, 60 ],
-	zoom: 2,
-	layers: [ basemap ]
+	zoom: 2
 });
+var gl = L.mapboxGL({
+        attribution: '<a href="https://cartiqo.nl/" target="_blank">© Cartiqo</a> <a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>',
+        accessToken: 'not-needed',
+        style: 'https://api.maptiler.com/maps/nl-cartiqo-dark/style.json?key=YjGIBZWhMGb5WohbFhFI'
+      }).addTo(map);
 var svg = d3.select(map.getPanes().overlayPane).append('svg');
 var g = svg.append('g').attr('class', 'leaflet-zoom-hide');
 
