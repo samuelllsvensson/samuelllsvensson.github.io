@@ -356,7 +356,7 @@ function moveMap(e) {
  * What happens when we use the date slider
  */
 
-d3.select('#date-value').text('Sunday, 8/3/2020');
+d3.select('#date-value').text('Saturday, 6/6/2020');
 d3.select('#dateSlider').on('input', function() {
 	var data = new Date(parseInt(this.value));
 	var weekday = new Array(7);
@@ -487,8 +487,6 @@ function drawMapLayers(data) {
 			map.removeLayer(layer);
 		}
 	});
-	log(myLayerOptions);
-	log(data);
 	L.geoJSON(data, myLayerOptions).addTo(map);
 }
 function compare(a, b) {
