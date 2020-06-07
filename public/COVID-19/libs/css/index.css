@@ -1,0 +1,263 @@
+/* MAIN */
+body {
+	background-color: black;
+	margin: 5;
+}
+
+g {
+	opacity: 0.5;
+}
+
+.card {
+	background-color: black;
+	height: 100vh;
+}
+
+.card-body {
+	background-color: black;
+	padding-top: 3;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+.card-header {
+	background-color: black;
+	padding: 10px;
+}
+
+.zoom {
+	cursor: move;
+	fill: none;
+	pointer-events: all;
+}
+
+.no-mouse {
+	pointer-events: none;
+}
+
+/* LEFT COLUMN */
+
+#totalConfirmed {
+	height: 150px;
+	padding-top: 10;
+	background-color: #222222;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+	opacity: 0.8;
+}
+#totalNoConfirmed {
+	color: khaki;
+	font: bold;
+	font-size: 4em;
+}
+#color-info {
+	background-color: #222222;
+	opacity: 0.8;
+	display: flex;
+	flex-direction: column;
+	height: 70vh;
+	line-height: 30px;
+	margin-top: 5px;
+	padding-top: 10;
+}
+#confirmedCaseContainer,
+#deathsCaseContainer,
+#recoveredCaseContainer {
+	overflow-y: auto;
+	margin-bottom: 30px;
+	border-style: groove;
+	border-color: lightgrey;
+	border-width: 0px 0px 1px 0px;
+}
+#confirmedCaseContainer ul,
+#deathsCaseContainer ul,
+#recoveredCaseContainer ul {
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+}
+
+.confirmedCaseItem,
+.deathsCaseItem,
+.recoveredCaseItem {
+	list-style-type: none;
+	text-align: left;
+	font-size: 1.2em;
+	cursor: pointer;
+	position: relative;
+	padding: 2px 0 2px 2px;
+	border-style: groove;
+	border-color: lightgrey;
+	border-width: 1px 1px 0px 0px;
+}
+.confirmedCaseItem:after,
+.deathsCaseItem:after,
+.recoveredCaseItem:after {
+	content: '\A';
+	position: absolute;
+	background: var(--percentage-color);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: var(--percentage-confirmed);
+	opacity: 0.2;
+}
+#confirmedList {
+	color: khaki;
+	font-weight: bold;
+}
+#deathsList {
+	color: red;
+	font-weight: bold;
+}
+#recoveredList {
+	color: green;
+	font-weight: bold;
+}
+/* MIDDLE COLUMN */
+#map {
+	height: 75vh;
+	width: auto;
+	position: relative;
+	margin: 5;
+	text-align: center;
+}
+
+#dateSlider {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10;
+	width: 90%;
+}
+#date-value {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+input[type=range] {
+	-webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	width: 300px;
+	height: 5px;
+	background: rgba(221, 221, 221, 0.37);
+	border: none;
+	border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: none;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: var(--slider-color);
+	margin-top: -4px;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #ddd;
+}
+.btn,
+.btn-primary {
+	background-color: var(--button-color);
+	color: var(--text-color) !important;
+	border-color: black;
+}
+
+.btn:hover {
+	background-color: grey;
+	color: black;
+	border-color: black;
+}
+
+.btn:active {
+	background-color: grey !important;
+	border-color: white !important;
+}
+
+#buttonContainer {
+	position: absolute;
+	bottom: 8vh;
+	text-align: center;
+	width: 100%;
+	padding-top: 1vh;
+	height: 6vh;
+
+	z-index: 10000;
+}
+:root {
+	--button-color: #222222;
+	--text-color: white;
+	--slider-color: khaki;
+}
+/* RIGHT COLUMN */
+#totalDeaths {
+	background-color: #222222;
+	padding-top: 10;
+	opacity: 0.8;
+	display: flex;
+	flex-direction: column;
+	height: 35vh;
+	line-height: 30px;
+	margin-top: 5px;
+}
+
+#totalNoDeaths {
+	color: #d10000;
+	font: bold;
+	font-size: 3em;
+}
+
+#totalRecovered {
+	background-color: #222222;
+	padding-top: 10;
+	opacity: 0.8;
+	display: flex;
+	flex-direction: column;
+	height: 35vh;
+	line-height: 30px;
+	margin-top: 5px;
+}
+
+#totalNoRecovered {
+	color: green;
+	font: bold;
+	font-size: 3em;
+}
+
+/* MISC * / 
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
