@@ -25,9 +25,10 @@ var conData = [];
 const log = console.log;
 // Initialize map
 var svgPlot = d3.select('#map').append('svg').attr('width', width + margin.left + margin.right).attr('height', height);
-var basemap = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org">OpenMapTiles</a>, &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-});
+
+var basemap = L.tileLayer('https://stadiamaps.com/static/alidade_smooth_dark');
+
+//var basemap = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png');
 let myLayerOptions = {
 	pointToLayer: createCircles,
 	coordsToLatLng: (coords) => {
@@ -97,7 +98,7 @@ $.when(
 		if (index < amountOfDays) dateArray[index] = tempDate.getMonth() + 1 + '/' + tempDate.getDate() + '/20';
 		datePredictArray[index] = tempDate.getMonth() + 1 + '/' + tempDate.getDate() + '/20';
 	}
-	log(datePredictArray);
+
 	// Fill chart arrays with x,y values -> (time, cases)
 	// log(dateArray.length); TOTAL amount of days in datasets
 	for (let index = 0; index < dateArray.length; index++) {
@@ -119,8 +120,7 @@ $.when(
 
 	var predictArray = regression.linear(confirmedDaysArray);
 	var predictExp = regression.exponential(confirmedDaysArray);
-	log(predictArray);
-	log(predictExp);
+
 	// Fill new arrays for easier calculations
 	var newPredictArray = [];
 	var newPredictExp = [];
