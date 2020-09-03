@@ -50,17 +50,17 @@ const AboutPage = (props, context) => {
               3D-computer graphics, image processing and front-end development.
             </p>
             <p>
-              I’ve always had an interest in technology in general since I was
-              very young. During high school I realized it's possible to combine
-              creativity with technology using programming. There’s something
-              valuable in being creative enough to be able to create something
-              that intrigues people and might even inspire younger students in a
-              certain technology. The complete freedom that entails with being a
+              I’ve always had an interest in technology in general. During high
+              school I realized it's possible to combine creativity with
+              technology using programming. There’s something valuable in being
+              creative enough to be able to create something that intrigues
+              people and might even inspire younger students in a certain
+              technology. The complete freedom that entails with being a
               programmer in an area that you enjoy is very satisfying. From the
               beginning I stuck with web programming since I always enjoyed
               being able to see what I'm creating instantly and apply different
-              designs and frameworks. Since starting university I've developed a
-              variety of small projects, sometimes in groups, sometimes alone.
+              designs and frameworks. Since starting university, I've developed
+              a variety of small projects, sometimes in groups, sometimes alone.
               I've been learning fast but occasionally failing. Things are
               moving very quickly and I'm getting closer to my graduation. This
               fall I'm going to be furthering my computer graphics and shading
@@ -81,6 +81,12 @@ const AboutPage = (props, context) => {
               programming course. <br /> I'm very much looking forward to it.{" "}
             </p>
 
+            <p>
+              {" "}
+              I'm currently searching for an interesting master thesis subject
+              to do either by myself or with another person. If you have ideas,
+              please don't hesitate to contact me.{" "}
+            </p>
             <p>
               {" "}
               During my four years so far at Linköpings University I’ve had the
