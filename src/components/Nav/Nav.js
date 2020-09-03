@@ -1,34 +1,35 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { toElement as scrollToElement } from '@utils/scroll';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { toElement as scrollToElement } from "@utils/scroll";
 
-import './style.scss';
+import "./style.scss";
 
 class Nav extends Component {
   constructor(props) {
     super(props);
     this.handleScroll = this.handleScroll.bind(this);
     this.state = {
-      isSticky: false
+      isSticky: false,
     };
   }
 
+
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener("scroll", this.handleScroll);
   }
 
   handleScroll() {
     if (window.pageYOffset > this.nav.offsetTop) {
       this.setState({
-        isSticky: true
+        isSticky: true,
       });
     } else {
       this.setState({
-        isSticky: false
+        isSticky: false,
       });
     }
   }
@@ -40,14 +41,15 @@ class Nav extends Component {
 
   render() {
     const {
-      theme: { colorPrimary, bgPrimary, navAlpha }
+      theme: { colorPrimary, bgPrimary, navAlpha },
     } = this.context;
 
-    const stickyClass = this.state.isSticky ? 'sticky' : '';
+    const stickyClass = this.state.isSticky ? "sticky" : "";
     const stickyStyles = this.state.isSticky
       ? { backgroundColor: navAlpha, color: colorPrimary }
       : { backgroundColor: bgPrimary, color: colorPrimary };
     return (
+
       <nav
         className={stickyClass}
         ref={(elem) => {
@@ -55,7 +57,6 @@ class Nav extends Component {
         }}
         style={stickyStyles}
       >
-        
         <style jsx="true">
           {`
             .menu__item:hover {
@@ -66,21 +67,27 @@ class Nav extends Component {
         <div className="menu">
           <div
             className="menu__item active"
-            onClick={(e) => this.scrollToPage('.about-page')}
+            onClick={(e) => this.scrollToPage(".about-page")}
           >
             About
           </div>
           <div
             className="menu__item"
-            onClick={(e) => this.scrollToPage('.portfolio-page')}
+            onClick={(e) => this.scrollToPage(".portfolio-page")}
           >
             Portfolio
           </div>
           <div
             className="menu__item"
-            onClick={(e) => this.scrollToPage('.commitment-page')}
+            onClick={(e) => this.scrollToPage(".commitment-page")}
           >
             Commitments
+          </div>
+          <div
+            className="menu__item"
+            onClick={(e) => this.scrollToPage(".courses-page")}
+          >
+            Courses
           </div>
         </div>
       </nav>
@@ -90,7 +97,7 @@ class Nav extends Component {
 
 Nav.contextTypes = {
   theme: PropTypes.any,
-  switchTheme: PropTypes.func
+  switchTheme: PropTypes.func,
 };
 
 export default Nav;

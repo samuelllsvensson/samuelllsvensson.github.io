@@ -1,19 +1,20 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import CommitmentItem from '@components/CommitmentItem';
-import ScrollToPrevious from '@components/ScrollToPrevious';
-import commitmentItems from './commitment-items';
+import React from "react";
+import PropTypes from "prop-types";
+import CommitmentItem from "@components/CommitmentItem";
+import commitmentItems from "./commitment-items";
+import ScrollToNext from "@components/ScrollToNext";
 
-import './style.scss';
+import "./style.scss";
 
 const CommitmentPage = (props, context) => {
-  const { theme: { bgPrimary, colorAlternate, textAlternate, colorPrimary } } = context;
+  const {
+    theme: { bgPrimary, colorAlternate, textAlternate, colorPrimary },
+  } = context;
 
   return (
-    
-      <div className="commitment-page" style={{ backgroundColor: bgPrimary }}>
+    <div className="commitment-page" style={{ backgroundColor: bgPrimary }}>
       <div className="content-grid">
-        <h1 style={{ color: colorPrimary}}>Commitments</h1>
+        <h1 style={{ color: colorPrimary }}>Commitments</h1>
         <div className="commitment-wrapper">
           <style jsx="true">
             {`
@@ -35,13 +36,13 @@ const CommitmentPage = (props, context) => {
           ))}
         </div>
       </div>
-      <ScrollToPrevious pageSelector=".portfolio-page" />
+      <ScrollToNext pageSelector=".courses-page" />
     </div>
   );
 };
 
 CommitmentPage.contextTypes = {
-  theme: PropTypes.any
+  theme: PropTypes.any,
 };
 
 export default CommitmentPage;

@@ -1,22 +1,23 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import ArchiveItem from '@components/ArchiveItem';
-import archiveItems from './archive-items';
-import ScrollToNext from '@components/ScrollToNext';
+import React from "react";
+import PropTypes from "prop-types";
+import ArchiveItem from "@components/ArchiveItem";
+import archiveItems from "./archive-items";
+import ScrollToNext from "@components/ScrollToNext";
 
-import './style.scss';
+import "./style.scss";
 
 const ArchivePage = (props, context) => {
   const {
-    theme: { colorPrimary, colorAlternate, textAlternate, bgPrimary }
+    theme: { colorPrimary, colorAlternate, textAlternate, bgPrimary },
   } = context;
 
-  
   return (
     <div className="archive-page" style={{ backgroundColor: bgPrimary }}>
       <div className="content-grid">
         <h1 style={{ color: colorPrimary }}>Archive</h1>
-        <h5 style={{ color: colorPrimary, textAlign: 'center' }}>Here you can find some older projects.</h5>
+        <h5 style={{ color: colorPrimary, textAlign: "center" }}>
+          Here you can find some older projects.
+        </h5>
         <div className="archive-wrapper">
           <style jsx="true">
             {`
@@ -44,7 +45,7 @@ const ArchivePage = (props, context) => {
 };
 
 ArchivePage.contextTypes = {
-  theme: PropTypes.any
+  theme: PropTypes.any,
 };
 
 export default ArchivePage;
