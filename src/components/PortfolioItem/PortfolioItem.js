@@ -1,9 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './style';
+import React from "react";
+import PropTypes from "prop-types";
+import "./style";
 
 const PortfolioItem = (props, context) => {
-  const { theme: { colorPrimary, textAlternate } } = context;
+  const {
+    theme: { colorPrimary, textAlternate },
+  } = context;
 
   if (props.render) return props.render;
   else
@@ -12,12 +14,9 @@ const PortfolioItem = (props, context) => {
         className="portfolio-item"
         style={{ backgroundColor: colorPrimary, color: textAlternate }}
       >
-        <div className="portfolio-item__title">Badass</div>
+        <div className="portfolio-item__title"></div>
 
-        <div className="portfolio-item__desc">
-          I do badass things and kickass everyday! I do badass things and
-          kickass everyday! I do badass things and kickass everyday!
-        </div>
+        <div className="portfolio-item__desc"></div>
         <div className="portfolio-item__icon">
           <i className="fab fa-js" />
           <i className="fab fa-react" />
@@ -32,7 +31,7 @@ const PortfolioItem = (props, context) => {
 };
 
 PortfolioItem.contextTypes = {
-  theme: PropTypes.any
+  theme: PropTypes.any,
 };
 
 export default PortfolioItem;

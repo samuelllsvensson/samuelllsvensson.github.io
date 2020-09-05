@@ -830,7 +830,7 @@ export default [
                   <br />
                   <Iframe
                     url="https://www.youtube.com/embed/8qhO7fpJxr8"
-                    width="520px"
+                    width="100%"
                     height="300px"
                     id="myId"
                     className="myClassname"
@@ -1299,7 +1299,7 @@ export default [
                   <br />
                   <Iframe
                     url="https://www.youtube.com/embed/S8k7c-hjwmY"
-                    width="520px"
+                    width="100%"
                     height="300px"
                     id="myId"
                     className="myClassname"
@@ -1634,7 +1634,7 @@ export default [
                   <br />
                   <Iframe
                     url="https://player.vimeo.com/video/345218845"
-                    width="520px"
+                    width="100%"
                     height="300px"
                     id="myId"
                     className="myClassname"
@@ -2125,8 +2125,8 @@ export default [
                     <br /> <br />
                     <Iframe
                       url="https://www.youtube.com/embed/c3KX1I5SiVI"
-                      width="560px"
-                      height="315px"
+                      width="100%"
+                      height="300px"
                       id="myId"
                       className="myClassname"
                       display="initial"
