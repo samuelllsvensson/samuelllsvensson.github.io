@@ -341,7 +341,7 @@ const rows = [
   createData(
     "TSBK03",
     "Advanced Game Programming",
-    "Sep 2020 - Oct 2020",
+    "Sep 2020 - Dec 2020",
     "Computer Graphics: Stencil buffer. Shadows. HDR. Bump mapping. Stereoscopic display. Physics: Kinetics and kinematics. Rigid bodies. Deformable bodies. Animation. Skinning. AI: Search, behavior, state machines. Networks: Principles for network games. Netlag. Other: Quaternions for rotation. GPU computing."
   ),
   createData(
