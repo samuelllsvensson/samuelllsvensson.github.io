@@ -339,10 +339,10 @@ const rows = [
     "Representations of surfaces in 3D. Triangular meshes in modeling. Mesh decimation. Implicit modeling. The level-set method in computer graphics and modeling. Splines and subdivision surfaces. Physics based simulation and animation of fluids."
   ),
   createData(
-    "TNCG15",
-    "Advanced Global Illumination and Rendering",
+    "TSBK03",
+    "Advanced Game Programming",
     "Sep 2020 - Oct 2020",
-    "The course will include the following topic areas: optics and light, ray tracing and radiosity algorithms, Monte Carlo sampling and integration,general strategy for solving the rendering equation, stochastic path tracing, photon mapping, caustics, perception and display. The learning outcomes for the course are: Ability to analyse and criticise a scientific paper. Present a scientific work. Implement an algorithm in Global Illumination. Differentiate between various forms of Global Illumination algorithms"
+    "Computer Graphics: Stencil buffer. Shadows. HDR. Bump mapping. Stereoscopic display. Physics: Kinetics and kinematics. Rigid bodies. Deformable bodies. Animation. Skinning. AI: Search, behavior, state machines. Networks: Principles for network games. Netlag. Other: Quaternions for rotation. GPU computing."
   ),
   createData(
     "TNM095",
