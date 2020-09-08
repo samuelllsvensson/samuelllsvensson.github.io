@@ -490,8 +490,7 @@ export default [
         <div className="portfolio-item__title">Edtouch</div>
         <div className="portfolio-item__desc">
           <h5> Apr 2020 - June 2020 </h5>
-          Fullstack web application where users can request edits of images
-          (TBD)
+          Full-stack web platform where users can request edits of images
         </div>
         <div className="portfolio-item__icon">
           <i className="fab fa-react" />
