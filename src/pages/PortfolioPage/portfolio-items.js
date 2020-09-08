@@ -45,6 +45,11 @@ import image51 from "./images/opengl.png";
 import image52 from "./images/postgresql.png";
 import image53 from "./images/bulma-logo.png";
 import image54 from "./images/d3.png";
+import image55 from "./images/edtouch.png";
+import image56 from "./images/edtoucheditcomment.png";
+import image57 from "./images/edtouchedits.png";
+import image58 from "./images/edtouchfrontpage.png";
+import image59 from "./images/edtouchpostfini.png";
 
 export default [
   {
@@ -512,7 +517,168 @@ export default [
                 <div className="modal-header">
                   <h4 className="modal-title">Edtouch</h4>
                 </div>
-                <div className="modal-body">TBD</div>
+                <div className="modal-body">
+                  <i>
+                    I created a platform for users to request different kinds of
+                    image manipulations using React with its Context API, Bulma
+                    and PostgreSQL. Course focused mainly on scalability, using
+                    several state-of-the art web frameworks in a smart way with
+                    a REST API backend.
+                  </i>
+                  <br />
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href={image55}>
+                    <img
+                      src={image55}
+                      height="50%"
+                      width="50%"
+                      alt="covid19dashboard"
+                    />
+                  </a>
+                  <br />
+
+                  <p>
+                    For the course 'Advanced Web Programming -{" "}
+                    <a
+                      href="https://www.ida.liu.se/~TDDD27/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      TDDD27
+                    </a>
+                    ' a friend and I developed a full-stack website where users
+                    can create an account, upload requests, comment and favorite
+                    edits. The initial idea was to create a platform for
+                    companies in the communication industry to hold competitions
+                    for logotypess and other graphical design related things.
+                    But right now there are no restrictions for regular users to
+                    request edits as well. The community can help these
+                    companies by providing an idea of a logotype, or an edit of
+                    the image which has been retouched in some way. It could
+                    also potentially be a place where users express their skills
+                    in photo manipulation. An example would be a user requesting
+                    to remove an unwanted object from an image or change the
+                    background. It could also be as simple as a color retouch.
+                    Users can also interact with each other by posting comments
+                    on either the requesting post or directly to an edit that
+                    someone has created.
+                  </p>
+                  <br />
+                  <p>
+                    The front page consists of a grid-like view where the newest
+                    requests are displayed with some additional information.
+                    When clicked, they redirect to another page where more
+                    information is displayed. (Click on the images to view in
+                    full resolution)
+                  </p>
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href={image58}>
+                    <img
+                      src={image58}
+                      height="80%"
+                      width="80%"
+                      alt="edtouchfrontpage"
+                    />
+                  </a>
+                  <br />
+
+                  <p>
+                    On every individual post page the image is shown, as well as
+                    a more detailed description of the request. On the bottom
+                    other users are able to either post a comment, asking for
+                    more specific information or if they have any questions.{" "}
+                  </p>
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href={image59}>
+                    <img
+                      src={image59}
+                      height="80%"
+                      width="80%"
+                      alt="edtouchpost"
+                    />
+                  </a>
+                  <br />
+                  <p>
+                    If another user has finished their edit of the image they
+                    can post it as an edit. Comments and edits on a post can be
+                    toggled. If edits are toggled on they are shown in a
+                    subgrid, very similarly to the front page. Users can also
+                    favorite these by clicking the heart icon, and edits with
+                    the highest score will be shown first.{" "}
+                  </p>
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href={image57}>
+                    <img
+                      src={image57}
+                      height="80%"
+                      width="80%"
+                      alt="edtouchedits"
+                    />
+                  </a>
+                  <br />
+                  <p>
+                    If one of these edits to a post are clicked a modal will be
+                    opened with even further information that the editor has
+                    provided. Users can also comment this specific edit if they
+                    want to give praise or maybe ask the editor questions.
+                  </p>
+                  <br />
+                  <a target="_blank" rel="noopener noreferrer" href={image56}>
+                    <img
+                      src={image56}
+                      height="80%"
+                      width="80%"
+                      alt="edtoucheditcomments"
+                    />
+                  </a>
+                  <br />
+                  <br />
+                  <p>
+                    Users create accounts using Auth0 where Google account
+                    authorization is supported. For uploading images we used a
+                    Cloudinary widget, which also comes with internal
+                    transformations performed on the cloud. This is useful when
+                    an image is only supposed to be a thumbnail and therefore
+                    Cloudinary will scale and downsize the image appropriately.
+                    Bulma provided us with an easy way to design the website to
+                    fit all media devices. It also comes with its own
+                    components, similarly to Material UI. We chose Bulma because
+                    it was a new framework for both of us and we had already
+                    worked with Material UI.
+                  </p>
+                  <br />
+                  <p>
+                    For the backend we chose the ORDBMS PostgreSQL since we were
+                    most comfortable with working with SQL. We built a complete
+                    REST API and used Axios to dispatch requests to endpoints.
+                    We then used Express.JS routes together with the library
+                    node-postgres to execute (and pool) SQL queries to the
+                    database in a convenient way. Since there are a lot of
+                    tables depending on eachother (since Edtouch's posts are
+                    linked to it's comments/edits and that edits comments f.e)
+                    we had to carefully plan how we wanted to store everything
+                    in the database.
+                  </p>
+                  <br />
+                  <p>
+                    I really wish I could share the repository here but we have
+                    it on a LiU-central GitLab repository storage, meaning only
+                    LiU students and employees are allowed access. Although, I
+                    can send the code if requested.
+                  </p>
+                  <br />
+                  <center>
+                    <p>
+                      <strong>
+                        Developed skills in: React with its Context API, the CSS
+                        framework Bulma, PostgreSQL. Building and planning a
+                        scalable full-stack website platform.
+                      </strong>
+                      <i />
+                    </p>
+                  </center>
+                </div>
                 <div className="modal-footer">
                   <br />
                   <br />
