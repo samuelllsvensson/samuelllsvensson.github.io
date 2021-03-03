@@ -1,51 +1,50 @@
 import React from "react";
-import "./style.scss";
 import Iframe from "react-iframe";
-// Please excuse the extremely messy and annoying hardcoding/importing, will create a new website with headless CMS soon.
-import image from "./images/unity.png";
-
-import image16 from "./images/threejs.png";
-import image17 from "./images/matlab.png";
-import image20 from "./images/trebuchet.png";
-import image21 from "./images/csharp.png";
-import image22 from "./images/trebuchet2.png";
-import image23 from "./images/reactredux.png";
-import image24 from "./images/netlogo.png";
-import image25 from "./images/old2.png";
-import image26 from "./images/new1.PNG";
-import image27 from "./images/new2.PNG";
-import image28 from "./images/gameplaySS.png";
-import image29 from "./images/gameplaySS2.png";
-import image30 from "./images/teaserFaceRecog.png";
-import image31 from "./images/pythonlogo.png";
-import image32 from "./images/flasklogo.png";
-import image33 from "./images/vuelogo.png";
-import image34 from "./images/gastroliter.png";
-import image35 from "./images/finalRender.png";
-import image36 from "./images/osllogo.png";
 import image37 from "./images/blenderlogo.png";
-import image38 from "./images/covid19.png";
-import image39 from "./images/cpluspluslogo.png";
-import image40 from "./images/lualogo.png";
-import image41 from "./images/Qtlogo.png";
-import image42 from "./images/heightcurve.PNG";
-import image43 from "./images/heightcurvetoolgraph.PNG";
-import image44 from "./images/slope2.PNG";
-import image45 from "./images/pyongyang.PNG";
-import image46 from "./images/pyongyangabove.PNG";
+import image53 from "./images/bulma-logo.png";
 import image47 from "./images/costraster.PNG";
 import image48 from "./images/costraster2.PNG";
-import image49 from "./images/helicircle.PNG";
-import image50 from "./images/findpath.PNG";
-import image51 from "./images/opengl.png";
-import image52 from "./images/postgresql.png";
-import image53 from "./images/bulma-logo.png";
+import image38 from "./images/covid19.png";
+import image39 from "./images/cpluspluslogo.png";
+import image21 from "./images/csharp.png";
 import image54 from "./images/d3.png";
 import image55 from "./images/edtouch.png";
 import image56 from "./images/edtoucheditcomment.png";
 import image57 from "./images/edtouchedits.png";
 import image58 from "./images/edtouchfrontpage.png";
 import image59 from "./images/edtouchpostfini.png";
+import image35 from "./images/finalRender.png";
+import image50 from "./images/findpath.PNG";
+import image32 from "./images/flasklogo.png";
+import image28 from "./images/gameplaySS.png";
+import image29 from "./images/gameplaySS2.png";
+import image34 from "./images/gastroliter.png";
+import image42 from "./images/heightcurve.PNG";
+import image43 from "./images/heightcurvetoolgraph.PNG";
+import image49 from "./images/helicircle.PNG";
+import image40 from "./images/lualogo.png";
+import image17 from "./images/matlab.png";
+import image24 from "./images/netlogo.png";
+import image26 from "./images/new1.PNG";
+import image27 from "./images/new2.PNG";
+import image25 from "./images/old2.png";
+import image51 from "./images/opengl.png";
+import image36 from "./images/osllogo.png";
+import image52 from "./images/postgresql.png";
+import image45 from "./images/pyongyang.PNG";
+import image46 from "./images/pyongyangabove.PNG";
+import image31 from "./images/pythonlogo.png";
+import image41 from "./images/Qtlogo.png";
+import image23 from "./images/reactredux.png";
+import image44 from "./images/slope2.PNG";
+import image30 from "./images/teaserFaceRecog.png";
+import image16 from "./images/threejs.png";
+import image20 from "./images/trebuchet.png";
+import image22 from "./images/trebuchet2.png";
+// Please excuse the extremely messy and annoying hardcoding/importing, will create a new website with headless CMS soon.
+import image from "./images/unity.png";
+import image33 from "./images/vuelogo.png";
+import "./style.scss";
 
 export default [
   {
@@ -753,7 +752,7 @@ export default [
     ),
   },
   {
-    name: "ProceduralCorals",
+    name: "COVID",
     render: (
       <div className="portfolio-item">
         <div className="portfolio-item__title">COVID-19 Dashboard</div>
@@ -985,12 +984,28 @@ export default [
                   <p>
                     {" "}
                     I then went on and created an underwater scene using my
-                    newly generated corals and created a short animation which
-                    can be seen below.{" "}
+                    newly generated corals to create a short animation which can
+                    be seen below.{" "}
                   </p>
                   <br />
                   <Iframe
                     url="https://www.youtube.com/embed/8qhO7fpJxr8"
+                    width="100%"
+                    height="300px"
+                    id="myId"
+                    className="myClassname"
+                    display="initial"
+                    position="relative"
+                    allowFullScreen
+                  />
+                  <br /> <br />
+                  <p>
+                    A longer montage of the creation process can also be seen in
+                    the video below.{" "}
+                  </p>
+                  <br />
+                  <Iframe
+                    url="https://www.youtube.com/embed/Mm9rvE_qWj0"
                     width="100%"
                     height="300px"
                     id="myId"
@@ -1021,6 +1036,11 @@ export default [
                     assured that neither I nor Gabriel (TA) are easy to impress.
                     Great work!"
                   </i>
+                  <p>
+                    The project also won the "Orange cube" award, handed out
+                    once each year to a student with the most creative project
+                    within the media technology program.{" "}
+                  </p>
                   <br />
                   <br />
                   <center>

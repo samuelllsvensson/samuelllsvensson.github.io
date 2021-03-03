@@ -1,8 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
 import ScrollToNext from "@components/ScrollToNext";
+import PropTypes from "prop-types";
+import React from "react";
 import signature from "./signatur.png";
-
 import "./style.scss";
 
 const AboutPage = (props, context) => {
@@ -42,12 +41,9 @@ const AboutPage = (props, context) => {
                 Media Technology
               </a>{" "}
               at campus Norrköping. It’s focused on computer graphics, AI, UX,
-              AR/VR and visualizations in addition to the standard engineering
+              AR/VR and visualization in addition to the standard engineering
               courses. I’m currently in my final year where I'm focusing on my
-              last courses focusing on advanced computer graphics used in games
-              and special effects. I'm also taking a course in AI for
-              interactive media. Right now my greatest interests are in
-              3D-computer graphics, image processing and front-end development.
+              Master's thesis at Maxar Technologies.
             </p>
             <p>
               I’ve always had an interest in technology in general. During high
@@ -62,37 +58,30 @@ const AboutPage = (props, context) => {
               designs and frameworks. Since starting university, I've developed
               a variety of small projects, sometimes in groups, sometimes alone.
               I've been learning fast but occasionally failing. Things are
-              moving very quickly and I'm getting closer to my graduation. This
-              fall I'm going to be furthering my computer graphics and shading
-              skills for both the game & SFX industry whilst also teaching a car
-              how to race through a track using Deep Q-learning. <br /> <br />{" "}
-              I've recently finished my internship at{" "}
+              moving very quickly and I'm getting closer to my graduation. I'm
+              currently doing my Master's thesis at{" "}
               <a
                 href="https://www.vricon.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Vricon
+                Maxar Technologies
               </a>
-              , an american geospatial-intelligence data and software company,
-              where I'm developing mostly in Lua and C++. During the fall I was
-              offered to continue working part-time which I was happy to accept.
-              I will also do some work at the university as a TA for a
-              programming course. <br /> I'm very much looking forward to it.{" "}
-            </p>
-
-            <p>
-              {" "}
-              I'm currently searching for an interesting master thesis subject
-              to do either by myself or with another person. If you have ideas,
-              please don't hesitate to contact me.{" "}
+              , an American space technology company which recently acquired
+              Vricon Systems; a geospatial-intelligence data and software
+              company, where me and my friend will be evaluating different
+              monocular Visual Simultaneous Localization and Mapping (V-SLAM)
+              methods for usage with UAV imagery. The aim of the thesis is to
+              see how the already existing reconstructed 3D terrain (which uses
+              satellite imagery) can be improved with the help of commercial
+              drones.
             </p>
             <p>
               {" "}
-              During my four years so far at Linköpings University I’ve had the
-              pleasure of getting to know several languages and frameworks. You
-              can get a more in-depth look of what I've created in the
-              ‘Portfolio’ page further down. Take a look!
+              During my 4.5 years at Linköpings University I’ve had the pleasure
+              of getting to know several languages and frameworks. You can get a
+              more in-depth look of what I've created in the ‘Portfolio’ page
+              further down. Take a look!
             </p>
 
             <p></p>
